@@ -10,7 +10,7 @@
 
 h1
 {
-	
+
 position: absolute;
 width: 1230px;
 height: 92px;
@@ -28,4 +28,9 @@ color: #FFFAFA;
 text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
+body background
+{
+  mix-blend-mode: multiply;
+  opacity: 0.35; 
 
+}
