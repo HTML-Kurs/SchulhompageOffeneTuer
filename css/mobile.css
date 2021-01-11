@@ -1,11 +1,9 @@
 
 h1
 {
-position: absolute;
-width: 336px;
-height: 260px;
-left: 18px;
-top: 128px;
+padding-top: 10%;
+padding-right: 7%;
+padding-left: 7%;
 
 font-family: Oranienbaum;
 font-style: normal;
@@ -19,7 +17,6 @@ color: #FFFAFA;
 text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 
 }
-
 
 
 
