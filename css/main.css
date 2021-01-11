@@ -71,3 +71,19 @@ header
 	margin: 10px 20px 0 0;
 	padding-left: 360px
 }
+
+
+.NavbarListItem
+{
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center, center;
+	background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
+	width: 100%;
+	height: 100%;
+
+	
+}
+
