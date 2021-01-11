@@ -7,6 +7,10 @@
   left: 0;
 }
 
+html,body{
+	width:100%;
+	height:100%;
+}
 
 h1
 {
@@ -28,9 +32,13 @@ color: #FFFAFA;
 text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
-body background
+#background-section
 {
-  mix-blend-mode: multiply;
-  opacity: 0.35; 
-
+  background-size: cover;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center, center;
+  background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
+  width: 100%;
+  height: 100%;
 }
