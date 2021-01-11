@@ -6,3 +6,26 @@
   top: 0;
   left: 0;
 }
+
+
+h1
+{
+	
+position: absolute;
+width: 1230px;
+height: 92px;
+left: 105px;
+top: 23px;
+
+font-family: Oranienbaum;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 58px;
+text-align: center;
+
+color: #FFFAFA;
+text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+
