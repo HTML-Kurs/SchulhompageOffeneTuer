@@ -43,11 +43,12 @@ ul
 li
 {
 		list-style-type: none;
+		float: right;
 }
 
 header
 {
-	left: 0;
+	right: 0;
 	top: 40px;
 	position: right-side;
 
