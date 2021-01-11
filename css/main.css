@@ -45,3 +45,29 @@ text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 
 
 }
+
+ul
+{
+	margin-left: 0;
+	padding-top: 40px;
+}
+
+li
+{
+		list-style-type: none;
+}
+
+header
+{
+	left: 0;
+	top: 40px;
+	position: fixed;
+}
+
+#main-nav
+{
+	text-align: center;
+	z-index: auto;
+	margin: 10px 20px 0 0;
+	padding-left: 360px
+}
