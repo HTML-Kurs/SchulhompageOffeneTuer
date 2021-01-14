@@ -14,34 +14,29 @@ html,body{
 
 h1
 {
-
-padding-top: 10%;
-padding-right: 7%;
-padding-left: 7%;
-font-family: Oranienbaum;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 58px;
-text-align: center;
-
-color: #E0E0E0;
-text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
+	padding-top: 10%;
+	padding-right: 7%;
+	padding-left: 7%;
+	font-family: Oranienbaum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 58px;
+	text-align: center;
+	color: #E0E0E0;
+	text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 #background-section
 {
-
   background-size: cover;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
   width: 100%;
   height: 100%;
   opacity: 0.45;
-
-
 }
 
 ul
@@ -52,20 +47,20 @@ ul
 
 li
 {
-		list-style-type: none;
+	list-style-type: none;
 }
 
 header
 {
-width: 100%;
-height: 10%;
-position: fixed;
-float: left;
- text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
 }
 
 #main-nav
@@ -76,24 +71,25 @@ float: left;
 	padding-left: 360px
 }
 
+#main-nav li :hover
+{
+	opacity: 0.7;
+}
 
 .NavbarListItem
 {
-
-	
 	float: left;
 	margin-right: 20px;
 	background: #C4C4C4;
-  opacity: 0.6;
+	opacity: 0.6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #Trailer_Startseite
 {
   align-content: center;
-
-
 }
+
 a
 {
 	color:black;
