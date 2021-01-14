@@ -56,21 +56,21 @@ header
 	height: 9%;
 	position: fixed;
 	float: left;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 25px;
 	border-radius: 4px;
 	margin-top: 0;
 	background: #C4C4C4;
-	opacity: 0,9;
+	opacity: 0.45;
+	z-index: 100;
 	
 }
 
 #main-nav
 {
 	text-align: left;
-	z-index: auto;
 	margin: 10px 20px 0 0;
 	padding-left: 360px
 }
@@ -89,12 +89,12 @@ header
 {
 	align-content: center;
 	margin-left: 315px;
-	
   
 }
 
 a
 {
-	color:#C4C4C4;
-	font-size:20px;
+	color:black;
+	font-size:17px;
+	opacity: 1;
 }
