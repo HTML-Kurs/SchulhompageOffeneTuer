@@ -42,7 +42,7 @@ h1
 ul
 {
 	margin-left: 0;
-	padding-top: 12px;
+	padding-top: 5px;
 }
 
 li
@@ -53,7 +53,7 @@ li
 header
 {
 	width: 100%;
-	height: 7%;
+	height: 9%;
 	position: fixed;
 	float: left;
 	text-align: center;
@@ -63,7 +63,7 @@ header
 	border-radius: 4px;
 	margin-top: 0;
 	background: #C4C4C4;
-	opacity: 0.8;
+	opacity: 0,9;
 	
 }
 
@@ -75,12 +75,8 @@ header
 	padding-left: 360px
 }
 
-#main-nav li :hover
-{
-	opacity: 0.7;
-}
 
-.NavbarListItem
+.NavbarListItem 
 {
 	float: left;
 	margin-right: 20px;
@@ -92,6 +88,8 @@ header
 #Trailer_Startseite
 {
   align-content: center;
+
+  
 }
 
 a
