@@ -87,13 +87,14 @@ header
 
 #Trailer_Startseite
 {
-  align-content: center;
-	margin-top:
+	align-content: center;
+	margin-left: 315px;
+	
   
 }
 
 a
 {
-	color:black;
+	color:#C4C4C4;
 	font-size:20px;
 }
