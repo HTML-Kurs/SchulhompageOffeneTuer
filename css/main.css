@@ -119,3 +119,13 @@ a
 	opacity: 1;
 	text-decoration: none;
 }
+
+
+.FormDiv
+{
+	background-color: white;
+	width: 80%;
+	margin-left: 10%;
+	height: 40%;
+	/* Box Shadow */
+}
