@@ -1,14 +1,14 @@
 
 h1
 {
-padding-top: 10%;
+padding-top: 25%;
 padding-right: 7%;
 padding-left: 7%;
 
 font-family: Oranienbaum;
 font-style: normal;
 font-weight: normal;
-font-size: 50px;
+font-size: 30px;
 line-height: 58px;
 text-align: center;
 
@@ -18,7 +18,14 @@ text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 
 }
 
-
+#Trailer_Startseite
+{
+	align-content: center;
+	width: 70%;
+	padding-left: 15%;
+	margin-top: 15%;
+  
+}
 
 
 
