@@ -126,7 +126,7 @@ a
 	background-color: white;
 	width: 80%;
 	margin-left: 10%;
-	height: 200%;
+	height: 10%;
 	
 }
 
@@ -181,4 +181,25 @@ text-align: center;
 }
 
 
+
+p
+{
+padding-right: 7%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+float:right;
+padding-top: 3%;
+}
+
+
+#Fachvorstellung_Video
+{
+	align-content: center;
+	width: 46%;
+	padding-left: 8%;
+	margin-top: 3%;
+}
 
