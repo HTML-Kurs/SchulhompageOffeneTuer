@@ -144,6 +144,28 @@ a
  padding-top: 6%;
  height: 90vh;
 }
+
+.BannerNav
+{
+	background-color: black;
+	display: block;
+	padding: 1em 0;
+	text-align: left;
+	width: 200px;
+}
+
+
+
+
+
+nav a 
+{
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+
 .BannerDiv
 {
 	background-color: black;
