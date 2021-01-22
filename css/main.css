@@ -134,14 +134,14 @@ a
 	background-color: white;
 	width: 80%;
 	margin-left: 10%;
-	height: 88%;
+	height: 100%;
 
 
 }
 
 .OffsetDiv
 {
- padding-top: 6%;
+ padding-top: 3.5%;
  height: 90vh;
 }
 
@@ -225,7 +225,7 @@ Farbabstimmung erfolgt demnächst*/
 
 h2
 {
-padding-top: 5%;
+padding-top: 3%;
 padding-right: 7%;
 padding-left: 7%;
 font-family: Roboto;
@@ -255,9 +255,38 @@ padding-top: 3%;
 
 #Fachvorstellung_Video
 {
+	
 	align-content: center;
 	width: 46%;
 	padding-left: 8%;
 	margin-top: 3%;
 }
+.Bilderübersicht
+{
+	height:100%;
+    float:left;
+	padding-left: 8%;
+	margin-top: 3%;
+	padding-left: 5%;
+}
 
+
+.Pfeil-links
+{ 
+ 	float: left;
+	height: 20%;
+	padding-top:13%;
+	padding-left: 5%;
+
+}
+.Pfeil-rechts
+{ 
+ 	float: left;
+	height: 20%;
+    padding-top:13%;
+	padding-left: 5%;
+}
+.Bildergalerie-Div
+{
+	height: 35%;
+}
