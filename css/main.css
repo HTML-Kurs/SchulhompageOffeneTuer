@@ -105,7 +105,7 @@ header
 
 .NavbarListItem:hover
 {
-	opacity: 0.3;
+	opacity: 1;
 	
 }
 
@@ -136,6 +136,7 @@ a
 	margin-left: 10%;
 	height: 88%;
 
+
 }
 
 .OffsetDiv
@@ -145,12 +146,35 @@ a
 }
 .BannerDiv
 {
-	background-color: white;
+	background-color: #400000;
 	width: 80%;
 	margin-left: 10%;
-	height: 60%;
+	height: 65%;
 	overflow: scroll;
+	margin-top: 3%;
+	
 }
+
+.BannerDiv
+{
+	overflow-x: hidden;
+	
+		
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* just working for Chrome, Edge, and Safari // I know- really sad*/
+}
+
+
+
+/*#2E0000 oder black
+Farbabstimmung erfolgt demnächst*/
+
+
+
 
 .Fachübersicht 
 {
