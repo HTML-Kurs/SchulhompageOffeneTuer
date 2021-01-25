@@ -220,7 +220,10 @@ Farbabstimmung erfolgt demnächst*/
 
 .Fachübersicht li a img
 {
-
+     float: left;
+     width: 33.33333%;
+     padding: 20px;
+      box-sizing: border-box;
 }
 
 
