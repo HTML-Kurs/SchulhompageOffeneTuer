@@ -186,12 +186,6 @@ nav a
 }
 
 
-::-webkit-scrollbar {
-  width: 10px;
-  /* just working for Chrome, Edge, and Safari // I know- really sad*/
-}
-
-
 
 /*#2E0000 #400000, oder black
 Farbabstimmung erfolgt demnächst*/
@@ -201,29 +195,22 @@ Farbabstimmung erfolgt demnächst*/
 
 .Fachübersicht 
 {
-	list-style-type: none;
+	position: relative;
+	column-count: 3;
+    column-fill: balance;
+	width: 95%;
+	padding-left:4%;
+	column-gap: 1%;
 }
 
 
-.Fachübersicht li 
+
+.Fachübersicht img
 {
-	
-}
-
-
-
-.Fachübersicht li a
-{
-
-}
-
-
-.Fachübersicht li a img
-{
-     float: left;
-     width: 33.33333%;
-     padding: 20px;
-      box-sizing: border-box;
+	position: relative;
+	width: 90%;
+	display: block;
+    padding-bottom: 5%;
 }
 
 
