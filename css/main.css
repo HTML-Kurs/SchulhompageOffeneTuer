@@ -42,13 +42,13 @@ h1
 #background-section
 {
 	position:relative;
-	 background-size: cover;
-	  background-repeat: no-repeat;
-	  background-attachment: fixed;
-	  background-position: center center;
-	  background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
-	  width: 100%;
-	  height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
+	width: 100%;
+	height: 100%;
 	   
 }
 
@@ -63,11 +63,12 @@ li
 	list-style-type: none;
 }
 
-header
+
+#main-nav
 {
-
-
-
+	margin: 20px 0 0;
+	padding-right: 5%;
+	opacity: 0;
 	width: 100%;
 	height: 9%;
 	position: fixed;
@@ -78,19 +79,9 @@ header
 	line-height: 25px;
 	border-radius: 4px;
 	margin-top: 0;
-	background: #C4C4C4;
-	opacity: 0.45;
 	z-index: 100;
-	
-
 }
 
-#main-nav
-{
-	text-align: left;
-	margin: 10px 20px 0 0;
-	padding-right: 5%;
-}
 
 
 .NavbarListItem 
@@ -99,14 +90,16 @@ header
 	float: right;
 	margin-right: 20px;
 	background: #C4C4C4;
-	opacity: 0.6;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	opacity: 1;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	position: fixed;
+	z-index: 200;
+	color: black;
 }
 
 .NavbarListItem:hover
 {
 	opacity: 1;
-	
 }
 
 
