@@ -1,21 +1,24 @@
 <h2> [NAME]
 </h2>
 
+<div class="grid-container">
 
-<video id="Fachvorstellung_Video"  controls>
-    <source src="./data/faecher/[NAME]/video.mp4" type="video/mp4">
+    <video id="Fachvorstellung_Video" controls >
+        <source src="./data/faecher/[NAME]/video.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+    </video>
         
-        Your browser does not support the video tag.
-</video>
-    
-<p> [TEXT] </p>
+    <div class="grid-text"> [TEXT] </div>
 
 
-       
-<div class="Bildergalerie-Div">		
-    <img class="Pfeil-links"src="./Bilder/Pfeil-links.png"> 
-    
-    <img class="Bilderübersicht" src="./Bilder/Banner_Mathematik.png">
+        
+    <div class="Bildergalerie-Div">		
+        <img class="Pfeil-links"src="./Bilder/Pfeil-links.png" onclick="UpdateSub()"> 
+        
+        <img id="Bilderübersicht" src="./Bilder/Banner_Mathematik.png">
 
-    <img class="Pfeil-rechts"src="./Bilder/Pfeil-rechts.png">
+        <img class="Pfeil-rechts"src="./Bilder/Pfeil-rechts.png" onclick="UpdateAdd()">
+    </div>
+
 </div>
