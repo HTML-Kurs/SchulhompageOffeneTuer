@@ -101,7 +101,7 @@ li
 	align-content: center;
 	width: 46%;
 	padding-left: 27%;
-	margin-top: 5%;
+	margin-top: 3%;
   
 }
 
@@ -122,6 +122,19 @@ a
 	margin-left: 10%;
 	height: 100%;
 }
+
+#Startseite
+{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 1%;
+	margin-top: 1.5%;
+	
+	
+}
+
 
 .OffsetDiv
 {
