@@ -301,3 +301,21 @@ h3
 {
 	font-size: 30px;
 }
+
+
+.Formulare
+{
+	width: 15%;
+	float:right;
+	margin-right: 20%;
+	margin-top: -2%;
+
+}
+.Formulare img
+{
+	width:100%;
+}
+.Div-Formulare
+{
+	padding-top: 2%;
+}
