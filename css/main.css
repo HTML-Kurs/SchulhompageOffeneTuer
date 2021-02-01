@@ -274,3 +274,17 @@ p
 {
 	height: 35%;
 }
+
+.FormDiv-Anmeldeformulare
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 30%;
+	margin-left: 10%;
+	height: 70%;
+	float:left;
+	margin-top: 3%;
+}
+h3
+{
+	font-size: 30px;
+}
