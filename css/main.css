@@ -101,7 +101,7 @@ li
 	align-content: center;
 	width: 46%;
 	padding-left: 27%;
-	margin-top: 5%;
+	margin-top: 3%;
   
 }
 
@@ -123,6 +123,19 @@ a
 	height: 100%;
 	overflow-y: scroll;
 }
+
+#Startseite
+{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 1%;
+	margin-top: 1.5%;
+	
+	
+}
+
 
 .OffsetDiv
 {
@@ -281,5 +294,36 @@ h2
 	padding-top: 5%;
 	height: 45vh;
 }
- 
-  
+
+
+.FormDiv-Anmeldeformulare
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 30%;
+	margin-left: 10%;
+	height: 70%;
+	float:left;
+	margin-top: 3%;
+}
+h3
+{
+	font-size: 30px;
+}
+
+
+.Formulare
+{
+	width: 15%;
+	float:right;
+	margin-right: 20%;
+	margin-top: -2%;
+
+}
+.Formulare img
+{
+	width:100%;
+}
+.Div-Formulare
+{
+	padding-top: 2%;
+}
