@@ -4,6 +4,7 @@ var index = 0;
 function UpdateData() 
 {
      BildElement.setAttribute("src", "./data/faecher/" + fach + "/Bilder/" + Imgs[index]);
+     BildElement.parentElement.setAttribute("href", "./data/faecher/" + fach + "/Bilder/" + Imgs[index]);
 }
 UpdateData();
 function UpdateAdd()

@@ -102,8 +102,17 @@ li
 	width: 46%;
 	padding-left: 27%;
 	margin-top: 3%;
-  
 }
+
+
+#Trailer_Schulrundflug
+{
+	align-content: center;
+	width: 46%;
+	padding-left: 27%;
+	margin-top: 3%;
+}
+
 
 
 a
@@ -313,10 +322,9 @@ h3
 
 .Formulare
 {
-	width: 15%;
+	width: 20%;
 	float:right;
 	margin-right: 20%;
-	margin-top: -2%;
 
 }
 .Formulare img
