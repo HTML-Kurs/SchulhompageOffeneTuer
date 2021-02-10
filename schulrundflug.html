@@ -9,7 +9,7 @@
 			rel="stylesheet"
 			media="screen and (max-width: 600px)"
 			href="./css/mobile.css" >
-
+    <script src="./scripts/getdata.js"></script>
 
   </head>
 
@@ -21,7 +21,7 @@
 
   <body>
 
-    <section id="background-section">
+    <section id="background-section" class="Scrollbody">
 
       <div class="header">
         <div class="Navigation">
@@ -44,6 +44,17 @@
 
 			</video>
 
+      <div class="Bildergalerie-Div">		
+        <img class="Pfeil-links"src="./Bilder/Pfeil-links.png" onclick="UpdateSub()"> 
+        
+        <img id="Bilderübersicht" src="./Bilder/Banner_Mathematik.png">
+
+        <img class="Pfeil-rechts"src="./Bilder/Pfeil-rechts.png" onclick="UpdateAdd()">
+      </div>
+      <script src="./scripts/bildergalerie1.js"></script>
+      <br>
+      <br>
+      <br>
 			<div>
 
 
