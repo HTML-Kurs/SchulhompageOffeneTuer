@@ -2,22 +2,22 @@
 </h2>
 
 <div class="grid-container">
-
-    <video id="Fachvorstellung_Video" controls >
-        <source src="./data/faecher/[NAME]/video.mp4" type="video/mp4">
+    <div class="top-container">
+        <video id="Fachvorstellung_Video" controls >
+            <source src="./data/faecher/[NAME]/video.mp4" type="video/mp4">
+                
+                Your browser does not support the video tag.
+        </video>
             
-            Your browser does not support the video tag.
-    </video>
-        
-    <div class="grid-text"> [TEXT] </div>
-
+        <div class="grid-text"> 
+            [TEXT] 
+        </div>
+    </div>
 
         
     <div class="Bildergalerie-Div">		
-        <img class="Pfeil-links"src="./Bilder/Pfeil-links.png" onclick="UpdateSub()"> 
-        
-        <img id="Bilderübersicht" src="./Bilder/Banner_Mathematik.png">
-
+        <img class="Pfeil-links"src="./Bilder/Pfeil-links.png" onclick="UpdateSub()">         
+            <a href="./Bilder/Banner_Mathematik.png"> <img id="Bilderübersicht" src="./Bilder/Banner_Mathematik.png"> </a>
         <img class="Pfeil-rechts"src="./Bilder/Pfeil-rechts.png" onclick="UpdateAdd()">
     </div>
 

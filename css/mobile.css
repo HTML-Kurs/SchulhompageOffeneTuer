@@ -1,48 +1,152 @@
 
+
+:root
+{
+  font-size: 16px;
+}
+
+
 h1
 {
   padding-top: 25%;
-  padding-right: 7%;
-  padding-left: 7%;
-
+  font-size: 2.4rem;
   font-family: Oranienbaum;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 58px;
+  line-height: 3.2rem;
   text-align: center;
-
   color: #FFFAFA;
-
   text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
-
 }
 
 #Trailer_Startseite
 {
 	align-content: center;
-	width: 70%;
-	padding-left: 15%;
-	margin-top: 15%;
-  
+	width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
-
-
-
+#Trailer_Schulrundflug
+{
+  align-content: center;
+	width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 25%;
+  padding-bottom: 10%;
+}
 
 
 
 #background-section
 {
-
   background-size: cover;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center, center;
   background-image: url(../Bilder/Hintergrund_Startseite_Smartphone.jpg);
   width: 100%;
   height: 100%;
+}
+
+.NavbarListItem
+{
+  margin-bottom: 3%;
+}
+.NavbarListItem a
+{
+  font-size: 1.5rem;
+	padding-top: 0.4%;
+}
 
 
+
+
+.schulrundflugAbstandMobile
+{
+  height: 20vh;
+}
+
+
+.FormDiv-Anmeldeformulare
+{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 45%;
+}
+
+
+.Formulare
+{
+  width: 30%;
+  margin-right: 15%;
+  float: inline-end;
+}
+
+
+.Fachübersicht 
+{
+	padding-top: 5%;
+	position: relative;
+	column-count: 2;
+  column-fill: balance;
+	width: 95%;
+	padding-left: 4%;
+	column-gap: 1%;
+}
+
+
+
+.Fachübersicht img
+{
+	position: relative;
+	width: 90%;
+	display: block;
+	padding-bottom: 5%;
+	
+	/*opacity: 0.8;*/
+
+
+	transition: all 300ms ease;
+}
+
+
+#Fachvorstellung_Video
+{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 0%;
+  padding-left:0%;
+  margin-bottom: 5%;
+}
+
+.FormDiv 
+{
+  width: 100%;
+  margin-left: 0%;
+}
+
+
+
+.Pfeil-links
+{
+  padding-top: 17%;
+  width: 10%;
+  padding-left: 2.5%;
+}
+
+.Pfeil-rechts
+{
+  width: 10%;
+  padding-right: 5%;
+  padding-top: 17%;
+}
+
+#Bilderübersicht
+{
+  width: 60%
 }
