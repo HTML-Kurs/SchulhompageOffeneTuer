@@ -126,14 +126,14 @@ a
 
 #Startseite
 {
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	background-color: rgba(255, 255, 255, 0.5);
 	margin-bottom: 1%;
 	margin-top: 1.5%;
-	
-	
+	text-align: center;
+	float:none;	
 }
 
 
@@ -326,4 +326,25 @@ h3
 .Div-Formulare
 {
 	padding-top: 2%;
+}
+
+
+
+.links
+{
+	text-align: center;
+	color: #C4C4C4;
+}
+
+.links a
+{
+	font-size: 2rem;
+	color: #C4C4C4;
+	text-decoration: underline;
+	transition: all 300ms ease;
+}
+
+.links a:hover
+{
+	color: #DDD;
 }
