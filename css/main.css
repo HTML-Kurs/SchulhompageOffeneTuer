@@ -38,7 +38,6 @@ h1
 	background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
 }
 
 ul
@@ -80,7 +79,6 @@ li
 	opacity: 0.7;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	z-index: 200;
-	
 }
 
 .NavbarListItem a
@@ -103,14 +101,39 @@ li
 	margin-top: 3%;
 }
 
+#Trailer_Startseite:fullscreen{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+	float: left;
+}
+
+#Fachvorstellung_Video:fullscreen{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+	float: left;
+}
 
 #Trailer_Schulrundflug
 {
 	align-content: center;
-	width: 46%;
-	padding-left: 27%;
+	width: 90%;
+	padding-left: 5%;
 	margin-top: 3%;
 }
+
+#Trailer_Schulrundflug:fullscreen
+{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+	float: left;
+}
+
 
 
 
@@ -134,14 +157,13 @@ a
 
 #Startseite
 {
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	background-color: rgba(255, 255, 255, 0.5);
 	margin-bottom: 1%;
 	margin-top: 1.5%;
 }
-
 
 .OffsetDiv
 {
@@ -158,9 +180,9 @@ a
 	width: 200px;
 }
 
-
-
-
+.text {
+	padding: 1%;
+}
 
 nav a 
 {
@@ -201,7 +223,6 @@ Farbabstimmung erfolgt demnächst*/
 	background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
 	overflow-y: scroll;
 }
 
@@ -366,4 +387,30 @@ h3
 
 .Pfeil-rechts:hover{
 	transform: scale(1.03);
+}
+
+.links
+{
+	text-align: center;
+	color: #C4C4C4;
+}
+
+.links a
+{
+	font-size: 2rem;
+	color: #C4C4C4;
+	text-decoration: underline;
+	transition: all 300ms ease;
+}
+
+.links a:hover
+{
+	color: #DDD;
+}
+
+.links{
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100vh;
+	margin-top: 0%;
+	margin-top: -5px;
 }
