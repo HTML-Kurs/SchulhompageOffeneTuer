@@ -157,12 +157,13 @@ a
 
 #Startseite
 {
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
 	background-color: rgba(255, 255, 255, 0.5);
 	margin-bottom: 1%;
 	margin-top: 1.5%;
+	text-align: center;
 }
 
 .OffsetDiv
@@ -233,7 +234,7 @@ Farbabstimmung erfolgt demnächst*/
 	position: relative;
 	column-count: 4;
     column-fill: balance;
-	width: 95%;
+	width: 93%;
 	padding-left: 4%;
 	column-gap: 1%;
 }
@@ -313,7 +314,6 @@ h2
 
 #Bilderübersicht:hover
 {
-	transition: scale 300ms ease;
 	transform: scale(1.05);
 	box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.75);
 }
@@ -363,7 +363,7 @@ h3
 
 .Formulare
 {
-	width: 20%;
+	width: 17%;
 	float:right;
 	margin-right: 20%;
 
@@ -401,11 +401,13 @@ h3
 	color: #C4C4C4;
 	text-decoration: underline;
 	transition: all 300ms ease;
+	stroke: black;
+	stroke-width: 5px;
 }
 
 .links a:hover
 {
-	color: #DDD;
+	color: rgb(105, 105, 105);
 }
 
 .links{
