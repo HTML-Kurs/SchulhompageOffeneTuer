@@ -5,12 +5,6 @@
   font-size: 16px !important;
 }
 
-.Navigation{
-  background-color: #dedede !important;
-  width: 100vw !important;
-  height: 10vh !important;
-  border-bottom: black 1px solid !important;
-}
 
 .NavbarListItem{
   float: left !important;
