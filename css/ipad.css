@@ -1,0 +1,30 @@
+#Trailer_Startseite{
+    align-content: center;
+    width: 90%;
+    padding: 5%;
+}
+
+#Startseite{
+    width: 90vw;
+    margin-left: 5%;
+}
+
+.NavbarListItem {
+	margin-right: 4.5%;
+    margin-bottom: 5%;
+}
+
+.NavbarListItem a{
+	font-size:20px;
+}
+
+.FormDiv-Anmeldeformulare{
+    width: 90%;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    height: 60%;
+}
+
+h3{
+    text-align: center;
+}

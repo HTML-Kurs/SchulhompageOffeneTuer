@@ -5,11 +5,31 @@
   font-size: 16px;
 }
 
+.Navigation{
+  background-color: #dedede;
+  width: 100vw;
+  height: 10vh;
+  border-bottom: black 1px solid;
+}
+
+.NavbarListItem{
+  float: left;
+  box-shadow: unset;
+  margin-bottom: 1.5vh;
+  background-color: white;
+}
+
+.NavbarListItem a{
+  font-size: 1.2rem;
+  background-color: unset;
+  opacity: 1;
+  color: #000;
+}
 
 h1
 {
-  padding-top: 25%;
-  font-size: 2.4rem;
+  float: left;
+  font-size: 2.0rem;
   font-family: Oranienbaum;
   font-style: normal;
   font-weight: normal;
@@ -23,10 +43,7 @@ h1
 {
 	align-content: center;
 	width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding: 5%;
 }
 
 #Trailer_Schulrundflug
@@ -51,19 +68,6 @@ h1
   width: 100%;
   height: 100%;
 }
-
-.NavbarListItem
-{
-  margin-bottom: 3%;
-}
-.NavbarListItem a
-{
-  font-size: 1.5rem;
-	padding-top: 0.4%;
-}
-
-
-
 
 .schulrundflugAbstandMobile
 {
@@ -149,4 +153,26 @@ h1
 #Bilderübersicht
 {
   width: 60%
+}
+
+#Startseite{
+  width: 100%;
+  margin: 0%;
+  background-color: white;
+  border-top  : black 1px solid;
+}
+
+.text {
+  padding-left: 3vh;
+  padding-top: 1.5vh;
+  padding-right: 3vh;
+}
+
+#float-right-mobileCSS{
+  float: right;
+}
+
+.links{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
 }
