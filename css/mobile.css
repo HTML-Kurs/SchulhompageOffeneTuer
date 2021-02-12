@@ -2,38 +2,38 @@
 
 :root
 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .Navigation{
-  background-color: #dedede;
-  width: 100vw;
-  height: 10vh;
-  border-bottom: black 1px solid;
+  background-color: #dedede !important;
+  width: 100vw !important;
+  height: 10vh !important;
+  border-bottom: black 1px solid !important;
 }
 
 .NavbarListItem{
-  float: left;
-  box-shadow: unset;
-  margin-bottom: 1.5vh;
-  background-color: white;
+  float: left !important;
+  box-shadow: unset !important;
+  margin-bottom: 1.5vh !important;
+  background-color: white !important;
 }
 
 .NavbarListItem a{
-  font-size: 1.2rem;
-  background-color: unset;
-  opacity: 1;
-  color: #000;
+  font-size: 1.2rem !important;
+  background-color: unset !important;
+  opacity: 1 !important;
+  color: #000 !important;
 }
 
 h1
 {
   float: left;
-  font-size: 2.0rem;
+  font-size: 2.0rem !important;
   font-family: Oranienbaum;
   font-style: normal;
   font-weight: normal;
-  line-height: 3.2rem;
+  line-height: 3.2rem !important;
   text-align: center;
   color: #FFFAFA;
   text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
@@ -41,19 +41,19 @@ h1
 
 #Trailer_Startseite
 {
-	align-content: center;
-	width: 90%;
-  padding: 5%;
+	align-content: center !important;
+	width: 90% !important;
+  padding: 5% !important;
 }
 
 #Trailer_Schulrundflug
 {
   align-content: center;
-	width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 25%;
-  padding-bottom: 10%;
+	width: 90% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top: 25% !important;
+  padding-bottom: 10% !important;
 }
 
 
@@ -64,115 +64,115 @@ h1
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center, center;
-  background-image: url(../Bilder/Hintergrund_Startseite_Smartphone.jpg);
-  width: 100%;
-  height: 100%;
+  background-image: url(../Bilder/Hintergrund_Startseite_Smartphone.JPG);
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .schulrundflugAbstandMobile
 {
-  height: 20vh;
+  height: 20vh !important;
 }
 
 
 .FormDiv-Anmeldeformulare
 {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 45%;
+  width: 90% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  height: 45% !important;
 }
 
 
 .Formulare
 {
-  width: 30%;
-  margin-right: 15%;
-  float: inline-end;
+  width: 30% !important;
+  margin-right: 15% !important;
+  float: inline-end !important;
 }
 
 
 .Fachübersicht 
 {
-	padding-top: 5%;
-	position: relative;
-	column-count: 2;
-  column-fill: balance;
-	width: 95%;
-	padding-left: 4%;
-	column-gap: 1%;
+	padding-top: 5% !important;
+	position: relative !important;
+	column-count: 2 !important;
+  column-fill: balance !important;
+	width: 95% !important;
+	padding-left: 4% !important;
+	column-gap: 1% !important;
 }
 
 
 
 .Fachübersicht img
 {
-	position: relative;
-	width: 90%;
-	display: block;
-	padding-bottom: 5%;
+	position: relative !important;
+	width: 90% !important;
+	display: block !important;
+	padding-bottom: 5% !important;
 	
 	/*opacity: 0.8;*/
 
 
-	transition: all 300ms ease;
+	transition: all 300ms ease !important;
 }
 
 
 #Fachvorstellung_Video
 {
-  width: 95%;
-  margin-left: 2.5%;
-  margin-right: 0%;
-  padding-left:0%;
-  margin-bottom: 5%;
+  width: 95% !important;
+  margin-left: 2.5% !important;
+  margin-right: 0% !important;
+  padding-left:0% !important; 
+  margin-bottom: 5% !important;
 }
 
 .FormDiv 
 {
-  width: 100%;
-  margin-left: 0%;
+  width: 100% !important;
+  margin-left: 0% !important;
 }
 
 
 
 .Pfeil-links
 {
-  padding-top: 17%;
-  width: 10%;
-  padding-left: 2.5%;
+  padding-top: 17% !important;
+  width: 10% !important;
+  padding-left: 2.5% !important;
 }
 
 .Pfeil-rechts
 {
-  width: 10%;
-  padding-right: 5%;
-  padding-top: 17%;
+  width: 10% !important;
+  padding-right: 5% !important;
+  padding-top: 17% !important;
 }
 
 #Bilderübersicht
 {
-  width: 60%
+  width: 60% !important;
 }
 
 #Startseite{
-  width: 100%;
-  margin: 0%;
-  background-color: white;
-  border-top  : black 1px solid;
+  width: 100% !important;
+  margin: 0% !important;
+  background-color: white !important;
+  border-top  : black 1px solid !important;
 }
 
 .text {
-  padding-left: 3vh;
-  padding-top: 1.5vh;
-  padding-right: 3vh;
+  padding-left: 3vh !important;
+  padding-top: 1.5vh !important;
+  padding-right: 3vh !important;
 }
 
 #float-right-mobileCSS{
-  float: right;
+  float: right !important;
 }
 
 .links{
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  height: 100% !important;
 }
