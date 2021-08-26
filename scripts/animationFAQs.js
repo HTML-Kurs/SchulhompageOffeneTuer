@@ -1,5 +1,5 @@
 var numberFAQ = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-// this function add an text to a FAQ-question, if it was clicked
+// this function adds a text to a FAQ-question, if it was clicked
 function change(arrayPosition, name, text){
   const x = document.getElementById(name);
   
