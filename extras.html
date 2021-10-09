@@ -1,28 +1,12 @@
 <!DOCTYPE html>
-<html lang="de" dir="ltr">
-  <head>
-
-<meta charset="utf-8">
-<title> St. Josef Gymnasium Dingelstädt </title>
-<link rel="stylesheet" href="./css/main.css">
-
-<link
-rel="stylesheet"
-media="screen and (max-width: 800px)"
-href="./css/ipad.css">
-
-<link<!DOCTYPE html>
-<html lang="de" dir="ltr">
+<html lang="de" dir="ltr" style="scroll-behavior: unset;">
   <head>
 
     <meta charset="utf-8">
     <title> St. Josef Gymnasium Dingelstädt </title>
     <link rel="stylesheet" href="./css/main.css">
 
-    <link
-    rel="stylesheet"
-    media="screen and (max-width: 800px)"
-    href="./css/ipad.css">
+    <link rel="stylesheet" media="(max-width: 1030px)" href="./css/ipad.css">
 
     <link
       rel="stylesheet"
@@ -39,11 +23,12 @@ href="./css/ipad.css">
         <div class="header">
           <script type="text/javascript" src = "/scripts/animationFAQs.js"></script>
           <div class="Navigation">
-            <ul>
-              <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
-              <li class="NavbarListItem"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li>
-              <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            <ul class="grid-ul-header">
+              <li class="NavbarListItem" id="float-right-mobileCSS"><a href="extras.html">Extras</a></li>
               <li class="NavbarListItem"><a href="index.html">Startseite</a></li>
+              <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
+              <li class="NavbarListItem" id="float-right-mobileCSS"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li> 
+              <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
             </ul>
           </div>
         </div>
@@ -52,6 +37,9 @@ href="./css/ipad.css">
 
 
         <div class="links">
+          <form class="extrasForm"> 
+            <p class="searchForSomethink">Suchbegriff eingeben: <input type="text" size="20" name="contentSearch" id="content"></p>  
+          </form>
           <br><br><br>
           <h2> Links </h2>
           <br><br><br>
@@ -75,14 +63,14 @@ href="./css/ipad.css">
             Weihnachtliches Konzert
           </a>
 
-
+        </div>
           <br><br>
           <br><br>
           
           <div class="FAQ">
 
             <h2 align = "center" class = "Subtitle">Häufig gestellte Fragen</h2>
-            <form> <p align = "right" class="searchForSomethink">Suchbegriff eingeben: <input type="text" size="20" name="contentSearch" id ="content"/></p>  </form>
+            
             <br><br>
             <br><br>
             
@@ -244,7 +232,7 @@ href="./css/ipad.css">
           <br><br>
 
           </div>
-        </div>
+        
       </div>
     </div>
   </section>
