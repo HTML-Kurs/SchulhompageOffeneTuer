@@ -238,6 +238,13 @@ nav a
 	text-align: center;
 	color: #C4C4C4;
 }
+.FAQHeadline{
+	color:rgb(255, 136, 0)
+}
+#Fließtext{
+	margin-bottom: 50%;
+	color: #ffffff;
+}
 
 /*#2E0000 #400000, oder black
 Farbabstimmung erfolgt demnächst*/
@@ -257,8 +264,17 @@ Farbabstimmung erfolgt demnächst*/
 
 .newContainer{
 	background-color: rgba(0, 0, 0, 0.4);
-	height: 300vh;
 	margin-top: 0%;
+}
+
+.FAQ{
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: left;
+}
+
+.content{
+	color: #ffd000;
 }
 
 
