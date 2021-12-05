@@ -12,7 +12,3 @@ function change(arrayPosition, name, text){
     numberFAQ[arrayPosition] = 0;
   }
 }
-function findFAQ(){
-  let msg = document.querySelector("#content").value;
-  window.alert(x);
-}
