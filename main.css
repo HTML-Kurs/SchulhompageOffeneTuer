@@ -142,7 +142,6 @@ li
 	padding: 0%;
 	float: left;
 }
-
 a
 {
 	color:black;
@@ -214,6 +213,7 @@ nav a
 	display: flex; 
 	align-items: flex-start;
 }
+
 /*
 .searchForSomethink{
 	position: fixed; 
@@ -266,6 +266,13 @@ Farbabstimmung erfolgt demnächst*/
 	overflow-y: scroll;
 }
 
+/* Das funktioniert noch nicht, weil der hover Effekt nicht bei jeder Bildschirmgröße die ganze Seite überzieht.*/
+.newContainer{
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 730vh;
+	margin-top: 0%;
+}
+
 /* muss noch überarbeitet werden, da nicht der ganze Bildschirm bedeckt wird*/
 .newContainer{
 	background-color: rgba(0, 0, 0, 0.4);
@@ -316,7 +323,6 @@ h2
 	text-align: center;
 
 }
-
 .grid-text
 {
 	padding-top: 2.5%;
