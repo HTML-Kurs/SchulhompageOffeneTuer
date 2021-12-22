@@ -6,5 +6,7 @@ Fächer.forEach(fach => {
     add = add.replace(/\[RLNAME\]/g, fach);
     Output += add;        
 });
+console.log(Output)
 document.write(Output);
-
+console.log(Fächer)
+console.log(Auswahl_Template)
