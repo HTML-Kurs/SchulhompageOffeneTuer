@@ -489,7 +489,62 @@ Gliederung: globalevariablene,
 
 /* Startseite*/
 
+/* .startseite-video-div{
+	width: 80%;
+} */
 
+
+/* Grid */
+
+.background-section{
+	display: grid;
+	grid-template-areas: 
+	"a a a"
+	"b b b"
+	"c c c"
+	;
+	grid-template-rows: 10% 1fr 30vh;
+	gap: 2vh;
+
+	position:relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	grid-area: a;
+}
+
+.videoStartseite{
+	grid-area: b;
+	display: grid;
+	place-content: center;
+}
+
+.Startseite-Aktionen{
+	grid-area: c; 
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Startseite-Aktionen div{
+	width: 28vw;
+	height: 25vh;
+	background-color:#444444
+}
+
+
+/* Video */
+
+.videoStartseite video{
+	width: 85vw;
+}
 
 /* Schulrundgang*/
 

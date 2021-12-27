@@ -2,27 +2,29 @@
 :root
 {
   font-size: 16px;
+  --size-content-extas: 1fr;
 }
-
+/* 
 .Navigation{
   background-color: #dedede;
   width: 100vw;
   height: 11vh;
   border-bottom: black 1px solid;
-}
+} */
 
 .NavbarListItem{
-  float: left;
+  /* float: left; */
   box-shadow: unset;
-  margin-bottom: 1.5vh;
-  background-color: white;
+  /* margin-bottom: 1.5vh; */
+  /* background-color: white; */
 }
 
 .NavbarListItem a{
   font-size: 1.2rem;
   background-color: unset;
   opacity: 1;
-  color: #000;
+  /* color: #000; */
+
 }
 
 .Headline-Schulrundgang{
@@ -212,4 +214,12 @@ h1
   font-size: 3.1vh;
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.FAQ{
+	text-align: left;
+	display: grid; 
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh; 
 }
