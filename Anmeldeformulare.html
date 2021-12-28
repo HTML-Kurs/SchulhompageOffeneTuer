@@ -14,20 +14,35 @@
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
 
     <link rel="stylesheet" media="screen and (max-height: 550px)" href="./css/moblie_fixing.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
   </head>
   
   <body>
 
     <section id="background-section">
-      <div class="header">
+      <div class="header" id="header-extras">
         <div class="Navigation">
           <ul class="grid-ul-header">
             <li class="NavbarListItem" id="float-right-mobileCSS"><a href="extras.html">Extras</a></li>
             <li class="NavbarListItem"><a href="index.html">Startseite</a></li>
-            <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            
             <li class="NavbarListItem" id="float-right-mobileCSS"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li> 
             <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
           </ul>
+          <div class="mobile-button">
+            <ul class="grid-ul-header-mobile">
+              <li class="NavbarListItem-mobile"><a href="index.html">Startseite</a></li>
+              <li class="NavbarListItem-mobile"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            </ul>
+            <div class="container-lines">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="Main-Headline-Anmeldeformulare">
@@ -70,5 +85,6 @@
       </div>
 
     </section>
+    <script src="scripts/mobileResponsive.js"></script>
   </body>
 </html>

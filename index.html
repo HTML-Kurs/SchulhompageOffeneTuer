@@ -14,10 +14,9 @@
 
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
-      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -25,15 +24,26 @@
 
 
     <section class="background-section">
-      <div class="header">
+      <div class="header" id="header-extras">
         <div class="Navigation">
           <ul class="grid-ul-header">
             <li class="NavbarListItem" id="float-right-mobileCSS"><a href="extras.html">Extras</a></li>
             <li class="NavbarListItem"><a href="index.html">Startseite</a></li>
-            <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
-            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li> 
-            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>            
+
+            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li>
+            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
           </ul>
+          <div class="mobile-button">
+            <ul class="grid-ul-header-mobile">
+              <li class="NavbarListItem-mobile"><a href="index.html">Startseite</a></li>
+              <li class="NavbarListItem-mobile"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            </ul>
+            <div class="container-lines">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -44,7 +54,7 @@
 				  Your browser does not support the video tag.
         </video>
 		  </div>
-      
+
       <div class="weird-wie-luca-es-will">
         <div class="container-Startseite">
           <div class="Anmeldeformulare-Startseite">
@@ -58,9 +68,9 @@
           </div>
         </div>
       </div>
-      
 
-      
+
+
 	<!-- <div id="Startseite">
     <div class="text">
       Diese Website ist in einem Jahrgangs- und Fachübergreifenden Projekt während der Schulschließung im Dezember 2020 bis Februar 2021 entstanden.<br>
@@ -78,12 +88,12 @@
       Deshalb laden -->
     <!-- </div>
 
-		
+
 
 	</div>  -->
 
 	</section>
-
+  <script src="scripts/mobileResponsive.js"></script>
   </body>
 
   <style>

@@ -70,13 +70,13 @@ li
 
 
 
-.NavbarListItem 
+.NavbarListItem
 {
 	transition: 300ms ease;
 	font-size: 1.5rem;
 	padding: 0.5%;
 	opacity: 0.7;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 	z-index: 200;
 }
 
@@ -208,7 +208,7 @@ a
 	width: 200px;
 }
 
-nav a 
+nav a
 {
 	color: white;
 	margin: 0 1em;
@@ -224,24 +224,24 @@ nav a
 	height: 65%;
 	overflow: scroll;
 	margin-top: 3%;
-	
+
 }
 
 .BannerDiv
 {
-	overflow-x: hidden;	
+	overflow-x: hidden;
 }
 
 .extrasForm{
-	display: flex; 
+	display: flex;
 	align-items: flex-start;
 }
 
 .searchForSomethink{
-	position: fixed; 
-	margin-left: 1vw; 
+	position: fixed;
+	margin-left: 1vw;
 	margin-top: 6vh;
-	color: #fff; 
+	color: #fff;
 	font-size: 2vh;
 }
 
@@ -280,7 +280,7 @@ Farbabstimmung erfolgt demnächst*/
 }
 
 
-.Fachübersicht 
+.Fachübersicht
 {
 	padding-top: 5%;
 	position: relative;
@@ -299,7 +299,7 @@ Farbabstimmung erfolgt demnächst*/
 	width: 90%;
 	display: block;
 	padding-bottom: 5%;
-	
+
 	/*opacity: 0.8;*/
 
 
@@ -368,14 +368,14 @@ h2
 
 
 .Pfeil-links
-{ 
+{
  	float: left;
 	width: 7.5%;
 	padding-top:10%;
 	padding-left: 25%;
 }
 .Pfeil-rechts
-{ 
+{
     float: left;
 	width: 7.5%;
     padding-top: 10%;
@@ -384,7 +384,7 @@ h2
 
 
 
-.Bildergalerie-Div 
+.Bildergalerie-Div
 {
 	padding-top: 5%;
 	height: 45vh;
@@ -502,7 +502,7 @@ Gliederung: globalevariablene,
 
 	transition: 300ms ease;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	
+
 }
 
 
@@ -518,7 +518,7 @@ Gliederung: globalevariablene,
 	place-content: center;
 	margin-top: 12vh;
 	margin-bottom: 12vh;
-	
+
 }
 
 .background-section{
@@ -540,7 +540,7 @@ Gliederung: globalevariablene,
 	flex-direction: row;
 	justify-content: space-between;
 	width: 86vw;
-	
+
 	margin-bottom: 12vh;
 }
 
@@ -567,7 +567,7 @@ Gliederung: globalevariablene,
 	font-size: 2rem;
 	font-family: 'Lato', sans-serif;
 	text-decoration-thickness: 1px;
-	
+
 
 
 }
@@ -582,11 +582,11 @@ Gliederung: globalevariablene,
 	font-size: 2rem;
 	font-family: 'Lato', sans-serif;
 	text-decoration-thickness: 1px;
-	
+
 
 
 }
-	
+
 
 
 
@@ -606,7 +606,7 @@ Gliederung: globalevariablene,
 
 .newContainer{
 	display: grid;
-	grid-template-areas: 
+	grid-template-areas:
 	"header"
 	"links"
 	"FragenNavigation"
@@ -638,9 +638,13 @@ Gliederung: globalevariablene,
 	text-align: left;
 	margin-left: 10%;
 	color: rgba(20, 20, 20, 0.85);
+
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.links h2::after {
 	text-decoration: underline solid rgba(20,20,20,0);
-	/* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); */
-	
 }
 
 .links h2:hover{
@@ -648,9 +652,10 @@ Gliederung: globalevariablene,
 	text-align: left;
 	margin-left: 10%;
 	color: rgba(20, 20, 20, 1);
-	/* text-decoration: underline solid rgba(0,0,0,1); */
-	transition: text-decoration-color 500ms ease-in-out;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+	/*transition: text-decoration-color 500ms ease-in-out; */
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.35);
+	animation: linksUnderlineAnimation 500ms ease-in-out 0ms 1;
+	text-decoration: underline solid rgba(20, 20, 20, 1);
 }
 
 .links a{
@@ -671,30 +676,31 @@ Gliederung: globalevariablene,
 
 .FAQ{
 	text-align: left;
-	display: grid; 
-	grid-template-columns: 1fr;
-	grid-template-rows: 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh; 
+	/* display: grid;  */
+	/* grid-template-columns: 1fr; */
+	/* grid-template-rows: 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh;  */
 }
 
 .FAQ0{
-	display: grid; 
+	/* display: grid;  */
 	margin-left: 10vw;
 	margin-right: 10vw;
-	padding-top: 7vh;
-	grid-template-rows: minmax(30vh, max-content);
-	
+	padding-top: 15vh;
+	/* grid-template-rows: minmax(30vh, max-content); */
+
 }
 
 .FAQ0 div{
 	font-size: 2rem;
 	width: 80%;
 	margin-left: 10%;
+	padding-bottom: 12vh;
 }
 
 .FAQ0 h3{
 	font-size: 5rem;
 	text-align: center;
-	padding-bottom: 2vh;
+	padding-bottom: 12vh;
 }
 
 .fragen{
@@ -702,7 +708,7 @@ Gliederung: globalevariablene,
 	margin-top: 2vh;
 	display: grid;
 	place-content: center;
-	padding-bottom: 5vh;
+	padding-bottom: 12vh;
 }
 
 .fragen-ol{
@@ -714,6 +720,7 @@ Gliederung: globalevariablene,
 	list-style-type: decimal;
 	display: grid;
 	gap: 0.55vh;
+	width: 75vw;
 }
 .fragen ol li{
 	list-style-type: decimal;
@@ -753,6 +760,7 @@ Gliederung: globalevariablene,
 
 .centerdiv h1{
 	font-size: 4rem;
+	padding-top: 5vh;
 }
 
 .extras-Section{
@@ -765,7 +773,7 @@ Gliederung: globalevariablene,
 	color: #f5f5f7;
 	margin-left: 0;
 	margin-right: 0;
-	padding-top: 7vh;
+	padding-top: 15vh;
 	padding-left: 10vw;
 	padding-right: 10vw;
 
@@ -827,19 +835,202 @@ Gliederung: globalevariablene,
 	color: #f5f5f7;
 }
 
+.header, .links, .fragen, .FAQ-container, .FAQ{
+	width: 100%;
+}
+
 /* Animationen */
+
+
+@keyframes linksUnderlineAnimation {
+	from {
+		text-decoration: underline solid rgba(20, 20, 20, 0.4);
+	}
+
+
+	50%{
+		text-decoration: underline solid rgba(20, 20, 20, 0.7);
+
+	}
+	to{
+		text-decoration: underline solid rgba(20, 20, 20, 1);
+	}
+}
+
+
+@keyframes navListFade {
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
 
 
 
 /* Responsive */
 
-/* @media only screen and (max-width: 600px){
+.mobile-button{
+	display: none;
+}
+
+.mobile-button div div{
+	width: 5vh;
+	height: 4px;
+	margin: 5px;
+	background-color: #f5f5f7;
+}
+
+@media screen and (max-width: 1000px) {
+
+	body{
+		overflow-X: hidden;
+	}
+
+	.newContainer {
+	  font-size: 30px;
+	}
+
+
 	.fragen-ol{
-		display: flex !important; 
-		flex-wrap: wrap;
-		flex-direction: column;
+		width: 75vw;
 	}
-	.links div a:hover{
-		color: yellow;
+
+	.FAQ div h3{
+		font-size: 4rem;
 	}
-} */
+	.FAQ div div{
+		font-size: 2rem;
+	}
+
+	/* NAVBAR: mobile*/
+
+	.header{
+		height: 8vh
+	}
+
+	.grid-ul-header{
+		position: fixed;
+		right: 0px;
+		top: 8vh;
+		left: unset;
+
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-items: center;
+
+		width: 72.5vw;
+		height: 92vh;
+
+		z-index: 1000;
+
+		background-color: rgb(31, 31, 13);
+
+		transform: translateX(100%);
+		transition: transform 500ms ease-in;
+
+
+		padding: 0 !important;
+	}
+
+	.grid-ul-header li{
+		opacity: 0;
+	}
+
+	.mobile-button{
+		position: fixed;
+		z-index: 1000;
+
+		display: flex;
+
+		right: 0px;
+		left: unset;
+
+		width: 100vw;
+		height: 8vh;
+		background-color: #141414;
+	}
+
+	.grid-ul-header-mobile{
+		display: flex;
+		color: white;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		left: 0;
+		padding: 0 !important;
+		width: 80vw;
+		justify-content: space-around;
+	}
+
+	.container-lines{
+		position: absolute;
+		right: 0px;
+		left: unset;
+
+		width: 20vw;
+		height: 8vh;
+
+		display: grid;
+		place-content: center;
+	}
+
+	.NavbarListItem-mobile{
+		padding: 2.5%;
+	}
+
+	.NavbarListItem-mobile a{
+		color: white;
+		font-size: 1.5rem;
+		padding: 0.5%;
+		margin: 2vh;
+		word-break: normal;
+	}
+  }
+
+
+@media screen and (max-width: 768px) {
+	body{
+		overflow-X: hidden;
+	}
+
+	.newContainer {
+	  font-size: 30px;
+	}
+
+
+	.fragen-ol{
+		width: 75vw;
+	}
+
+	.FAQ div h3{
+		font-size: 3rem;
+	}
+	.FAQ div div{
+		font-size: 1.5rem;
+	}
+
+ }
+.header-active {
+	transform: translateX(0%);
+
+}
+
+.toggle .line1{
+	transform: rotate(-45deg) translate(-1vh, 1.12vh);
+	transition: all 250ms ease-in-out;
+}
+
+.toggle .line2{
+	opacity: 0;
+	transition: all 150ms ease-in-out;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-1vh, -1.12vh);
+	transition: all 250ms ease-in-out;
+}
