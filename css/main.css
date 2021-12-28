@@ -1,6 +1,7 @@
 :root {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
+	
 }
 
 
@@ -580,7 +581,12 @@ Gliederung: globalevariablene,
 	color: #f5f5f7;
 }
 
-.footer_nice
+.footer{
+	padding: 90px 180px;
+	background: #141414;
+	color: white;
+
+  }
 
 
 /* Schulrundgang*/
