@@ -157,7 +157,6 @@ a{
 {
 	background-color: rgba(255, 255, 255, 0.5);
 	height: 100%;
-	overflow-y: scroll;
 	grid-area: b;
 	width: 100%;
 }
@@ -174,15 +173,16 @@ a{
 
 .OffsetDiv
 {
+	padding-top: 13.5vh;
 	margin-top: 1.5vh;
 	height: 90vh;
 	display: grid;
-	grid-template-areas: "a b c";
+	grid-template-areas: "left b right";
 	grid-template-columns: 1fr 5fr 1fr;
 }
 
 #leftCngFach{
-	grid-area: a;
+	/* grid-area: a; */
 	width: 7vw;
 }
 
@@ -191,21 +191,21 @@ a{
 }
 
 .LeftPfeilFormDiv{
-	grid-area: a;
+	grid-area: left;
 	display: grid;
 	place-content: center;
-	position: fixed;
+	/* position: fixed; */
 	height: 100%;
-	width: 14%;
+	/* width: 14%; */
 }
 
 .RechtsPfeilFormDiv{
-	grid-area: c;
+	
 	display: grid;
 	place-content: center;
 	height: 100%;
-	position: fixed;
-	width: 186%;
+	/* position: fixed; */
+	grid-area: right;
 }
 
 .BannerNav
@@ -246,13 +246,13 @@ nav a
 	align-items: flex-start;
 }
 
-.searchForSomethink{
+/* .searchForSomethink{
 	position: fixed;
 	margin-left: 1vw;
 	margin-top: 6vh;
 	color: #f5e7dc;
 	font-size: 2vh;
-}
+} */
 
 /* #content:hover{
 	box-shadow: #444444 solid 4px 2px;
@@ -714,8 +714,9 @@ Gliederung: globalevariablene,
 
 .grid-container{
 	width: 100%;
-	height: 100%;
 	background-color: #ff876b;
+	display: flex;
+	flex-direction: column;
 }
 
 
