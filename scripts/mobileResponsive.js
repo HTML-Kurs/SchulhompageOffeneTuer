@@ -1,5 +1,4 @@
 const NAVListItems = document.querySelectorAll('.NavbarListItem');
-console.log(NAVListItems)
 let ArrayNavListItems = [];
 
 
@@ -23,8 +22,6 @@ const navSlide = () => {
 
 
         // Animation li
-        console.log(reversedListNAV)
-
         reversedListNAV.forEach((link, index)=>{
             if(link.style.animation){
                 link.style.animation = '';

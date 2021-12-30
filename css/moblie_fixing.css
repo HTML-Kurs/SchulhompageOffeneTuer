@@ -1,4 +1,4 @@
-.Main-Headline-Anmeldeformulare h1 {
+/* .Main-Headline-Anmeldeformulare h1 {
     margin-top: 6.5vh;
     padding: 0;
     font-size: 30px;
@@ -32,11 +32,10 @@
 
 .Formulare img {
     max-width: 35vh;
-}
+} */
 
-.Navigation {
+/* .Navigation {
     background-color: unset;
     width: 100vw;
-    height: 11vh;
     border-bottom: unset;
-}
+} */
