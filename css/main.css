@@ -69,7 +69,9 @@ li
 }
 
 
-
+.header {
+	height: max-content;
+}
 
 .NavbarListItem
 {
@@ -159,6 +161,17 @@ a{
 	height: 100%;
 	grid-area: b;
 	width: 100%;
+	outline: rgb(94, 4, 4) 5px solid;
+}
+
+
+/* delete outlines later*/
+.FormDiv h2 {	
+	outline: rgb(13, 2, 39) 3px solid;
+}
+
+.OffsetDiv{
+	outline: rgb(10, 59, 25) 3px solid;
 }
 
 #Startseite
@@ -1039,7 +1052,7 @@ Gliederung: globalevariablene,
 	margin-top: 1vh;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1040px) {
 
 	body{
 		overflow-X: hidden;
