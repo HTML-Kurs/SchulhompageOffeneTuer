@@ -669,6 +669,7 @@ Gliederung: globalevariablene,
 	margin-left: 7vw;
 	padding-top: 4vh;
 	padding-bottom: 4vh;
+	text-decoration: underline;
 	
 }
 .Impressum{
@@ -686,8 +687,7 @@ Gliederung: globalevariablene,
 }
 
 .textDecoration{
-	text-decoration: underline 2px rgba(245, 245, 247, 0.55) solid;
-	color: rgba(224, 224, 224, 0.7);
+	text-decoration: none;
 }
 
 .Headline-Schulrundgang h1{
@@ -974,7 +974,7 @@ Gliederung: globalevariablene,
 
 .textDecoration:hover{
 	transition: all 300ms ease;
-	text-decoration: underline solid white  2px;
+	text-decoration: none;
 	color: rgba(224, 224, 224, 1);
 }
 
