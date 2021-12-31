@@ -710,7 +710,7 @@ Gliederung: globalevariablene,
 
 /* Schulrundgang*/
 
-
+/*finde den Fehler*/
 
 /* Anmeldeformulare*/
 
@@ -769,7 +769,7 @@ Gliederung: globalevariablene,
 	margin-left: 10%;
 	width: 80%;
 }
-
+/*oder auch nicht*/
 .links h2{
 	font-size: 4rem;
 	text-align: left;
@@ -807,6 +807,7 @@ Gliederung: globalevariablene,
 	grid-area: Antworten;
 	margin-bottom: 5%;
 }
+/*github ist ein Verräter*/
 .FAQ-container h2{
 	font-size: 6rem;
 	color: #fff;
