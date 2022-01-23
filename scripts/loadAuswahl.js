@@ -8,5 +8,5 @@ Fächer.forEach(fach => {
 });
 console.log(Output)
 document.write(Output);
-console.log(Fächer)
+console.log(Fächer.replace(/[a-z]/g, '').replace(/[A-Z]/g, '').replace(' ', ''))
 console.log(Auswahl_Template)

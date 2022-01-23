@@ -64,17 +64,6 @@ h1
 }
 
 
-
-#background-section
-{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center, center;
-  background-image: url(../Bilder/Hintergrund_Startseite_Smartphone.jpg);
-  width: 100%;
-}
-
 .schulrundflugAbstandMobile
 {
   height: 20vh;
