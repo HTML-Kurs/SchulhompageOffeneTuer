@@ -1207,7 +1207,7 @@ Gliederung: globalevariablene,
 	}
 
 	.container-lines{
-		position: absolute;
+		position: fixed;
 		right: 0px;
 		left: unset;
 
@@ -1215,8 +1215,15 @@ Gliederung: globalevariablene,
 		height: max-content;
 
 		display: grid;
-		place-content: center;
+		justify-content: center;
+		align-content: start
 	}
+
+	.container-lines {
+		top: 0px;
+		margin-top: 0px;
+	}
+
 
 	.NavbarListItem-mobile{
 		padding: 2.5%;
@@ -1306,9 +1313,6 @@ Gliederung: globalevariablene,
 		margin-top: 15%;
 	}
 
-	.container-lines{
-		top: 0; 
-	}
 
  }
 
