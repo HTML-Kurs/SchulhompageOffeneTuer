@@ -1111,7 +1111,7 @@ Gliederung: globalevariablene,
 	background-image: none !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
 
 	body{
 		overflow-X: hidden;
@@ -1306,6 +1306,9 @@ Gliederung: globalevariablene,
 		margin-top: 15%;
 	}
 
+	.container-lines{
+		top: 0; 
+	}
 
  }
 
