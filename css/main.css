@@ -856,7 +856,6 @@ Gliederung: globalevariablene,
 
 .FAQ-container{
 	grid-area: Antworten;
-	margin-bottom: 5%;
 }
 /*github ist ein Verräter*/
 .FAQ-container h2{
