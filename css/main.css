@@ -1111,7 +1111,7 @@ Gliederung: globalevariablene,
 	background-image: none !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
 
 	body{
 		overflow-X: hidden;
@@ -1207,7 +1207,7 @@ Gliederung: globalevariablene,
 	}
 
 	.container-lines{
-		position: absolute;
+		position: fixed;
 		right: 0px;
 		left: unset;
 
@@ -1215,8 +1215,15 @@ Gliederung: globalevariablene,
 		height: max-content;
 
 		display: grid;
-		place-content: center;
+		justify-content: center;
+		align-content: start
 	}
+
+	.container-lines {
+		top: 0px;
+		margin-top: 0px;
+	}
+
 
 	.NavbarListItem-mobile{
 		padding: 2.5%;
