@@ -1,72 +1,131 @@
 
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
+
   <head>
 
     <meta charset="utf-8">
-    <title> St. Josef Gymnasium Dingelstädt </title>
-    <link rel="stylesheet" href="./css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-		rel="stylesheet"
-		media="(max-width: 800px)"
-		href="./css/ipad.css">
+    <title> St. Josef Gymnasium Dingelstädt </title>
 
-    <link rel="stylesheet" media="(max-width: 600px)"href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/main.css">
 
+    <link rel="stylesheet" media="(max-width: 1030px)" href="./css/ipad.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Lato:wght@300&display=swap" rel="stylesheet">
 
   </head>
-  <body >
+  <body>
 
 
 
 
-    <section id="background-section" class="Scrollbody">
-      <div class="header">
+    <section class="background-section StartseiteBody" id="background-section">
+      <div class="header" id="header-extras">
         <div class="Navigation">
-          <ul>
-            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li> 
-            <li class="NavbarListItem"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li> 
-            <li class="NavbarListItem"><a href="extras.html">Extras</a></li>
+          <ul class="grid-ul-header">
+            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="extras.html">Extras</a></li>
+            <li class="NavbarListItem"><a href="index.html">Startseite</a></li>
             <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
-            <li class="NavbarListItem"><a href="index.html">Startseite</a></li> 
+            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li>
+            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
+
+
           </ul>
+          <div class="mobile-button">
+            <ul class="grid-ul-header-mobile">
+              <li class="NavbarListItem-mobile"><a href="index.html">Startseite</a></li>
+              <li class="NavbarListItem-mobile"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            </ul>
+            <div class="container-lines">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
         </div>
       </div>
 
 
-      <div id="background-div">
-        <h1> Willkommen am St. Josef Gymnasium Dingelstädt </h1>
-
+      <div class="videoStartseite">
 			  <video id="Trailer_Startseite"  controls>
-				<source src="./Bilder/Trailer_Schulrundgang_Schuelerrat.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-
+				  <source src="./Bilder/Trailer_Schulrundgang_Schuelerrat.mp4#t=0.1" type="video/mp4">
+				  Your browser does not support the video tag.
+        </video>
 		  </div>
 
+      <div class="banner-Startseite">
+        <div class="container-Startseite">
+          <div class="Anmeldeformulare-Startseite">
+            <a class="Startseite-Links-Banner" href="Anmeldeformulare.html"> Anmeldeformulare</a>
+          </div>
+          <div class="Schulrundgang-Startseite">
+            <a class="Startseite-Links-Banner" href="Schulrundgang.html"> Schulrundgang</a>
+          </div>
+          <div class="Schulrundflug-Startseite">
+            <a class="Startseite-Links-Banner" href="Schulrundflug.html"> Schulrundflug</a>
+          </div>
+        </div>
+      </div>
 
 
-	<div id="Startseite">
 
+	<!-- <div id="Startseite">
     <div class="text">
       Diese Website ist in einem Jahrgangs- und Fachübergreifenden Projekt während der Schulschließung im Dezember 2020 bis Februar 2021 entstanden.<br>
       Die dargestellten Inhalte wurde von Kleingruppen der Klassenstufen 9/10 in Kooperation mit den Fachschaften erarbeitet und zusammengetragen.<br>
 		  Eine Seminarfachgruppe der Klassenstufe 10 hat das gesamte Webdesign dieses virtuellen Rundgangs erstellt.<br>
       <br>
       Wir wünschen viel Spaß bei der Erkundungstour durch unsere Schule.<br>
+      -->
+		  <!--Liebe Kinder,
+      unser Gymnasium bietet sehr viele Angebote für das Arbeiten mit Technik und modernen Programmen. Wir haben in jedem Raum einen Biemer und technische Ausstattung,<br>
+      wodurch uns Schülern schon früh beigebracht wird, wie man damit umgeht. Ab der achten Klasse arbeitest du mit einem I Pad und das erstellen von Mindmaps<br>
+      oder Präsentationen wird für dich fast zum täglichen Altag dazugehören. Damit schaffen wir dir einen großen Vorteil in deinem späteren Leben und bereiten dich<br>
+      darauf vor.<br>
+      Vorallem auch jetzt in der Corona-Pandemie konnten wir nahezu ohne Probleme weiterarbeiten an Schulfächern und freiwilligen Projekten.<br>
+      Deshalb laden -->
+    <!-- </div>
 
-		
+
+
+	</div>  -->
+  <footer>
+    <div class="footer">
+      <div class="Formulare-box-grid">
+        <a class ="Formulare-footer textDecoration" href="./data/anmeldung/anmeldung.zip">Anmeldeformulare </a>
+        <a class ="Formulare-footer textDecoration" href="./data/anmeldung/Förderverein.zip"> Fördervereinformulare</a>
+      </div>
+        <div class="container_footer">
+          <div class="Impressum">
+            <a href="https://www.schulportal-thueringen.de/schools/overview?tspi=958&vsid=st.+josef+gymnasium&csthl=st.+josef+gymnasium" class="textDecoration">Impressum</a>
+          </div>
+
+      </div>
     </div>
-
-		
-
-
-
-
-
-	</div>
-
+  </footer>
+  <!-- <div class="PageAnimationStart">
+    <div class="Animation-Container-Startseite">
+      <h1>Willkommen am St. Josef Gymansium Dingelstädt</h1>
+      <img src="Bilder/AnimationStartSeiteBildTEMPORAER.png" alt="St. Josef Gymansium Bild" srcset="">
+    </div>
+  </div> -->
 	</section>
+  <script src="scripts/mobileResponsive.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="scripts/PageAnimation.js"></script>
 
   </body>
 </html>

@@ -1,13 +1,3 @@
-
-
-„Mathematik hat doch nichts mit dem wirklichen Leben zu tun.“- „Das braucht kein Mensch, dafür gibt’s doch Smartphones, Tablets und Computer!“<br><br> 
-
-Richtig? - Falsch! Als du heute morgen aufgewacht bist, hast du dich, noch bevor du aufgestanden bist, mitten in der Welt der Mathematik befunden: Wie lang ist dein Bett? Wie groß ist die Fläche deines Zimmers? Ist das Fenster symmetrisch? Wie groß ist die Entfernung vom Bett zum Badezimmer? ... Brauchst du noch mehr Beweise? Ein Smartphone beispielsweise funktioniert nur, weil es unglaublich viele Menschen gab und gibt, die die Welt in Zahlen gefasst haben. 
-Mit diesen und noch mehr verschiedenen Richtungen der Mathematik beschäftigen wir uns im Unterricht der nächsten Jahre. Wusstest du zum Beispiel, dass die Programmierung von Computern auf zwei Zahlen beruht, der „0“ und der „1“? Dieses Zahlensystem lernst du genauso kennen wie das der alten Römer. Wir begeben uns auf die Suche nach der größten aller Zahlen, suchen Gleichmäßigkeiten in der Natur - es gibt noch so viel zu entdecken!<br><br>
-
-Einen Ausflug in den digitalen Mathematikunterricht kannst du hier erleben:<br>
-<a href="https://www.geogebra.org/m/bx2btzta" target="_blank"> Geometrie mit GeoGebra </a> 
-
-<br><br>
-
-Sei dabei und herzlich willkommen in der Welt der Zahlen, Größen, Figuren, Körpern ... !
+Ihr wisst alle schon, dass sich die Mathematik mit Zahlen beschäftigt und könnt natürlich auch schon rechnen. Aber die Mathematik beschäftigt sich mit viel mehr. 
+Was bedeuten die römischen Zahlzeichen die man an vielen alten Gebäuden findet? Was haben Kirchenfenster mit Mathematik zu tun? Welches ist die größte Zahl? Was bedeuten die Prozentangaben, die man überall findet? Wie kann ich Geheimschriften entschlüsseln? Wie kann ich selbst Mandalas zeichnen?
+Die Antworten auf diese und andere Fragen findet ihr in der Mathematik. 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="de" dir="ltr">
+<html lang="de" dir="ltr" style="scroll-behavior: unset;">
   <head>
 
     <meta charset="utf-8">
@@ -9,69 +9,72 @@
 
     <link rel="stylesheet" href="./css/main.css">
 
-    <link
-		rel="stylesheet"
-		media="(max-width: 800px)"
-		href="./css/ipad.css">
+    <link rel="stylesheet" media="(max-width: 1030px)" href="./css/ipad.css">
 
-    <link
-			rel="stylesheet"
-			media="screen and (max-width: 600px)"
-			href="./css/mobile.css" >
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
+
+    <link rel="stylesheet" media="screen and (max-height: 550px)" href="./css/moblie_fixing.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
     <section id="background-section">
-      <div class="header">
+      <div class="header" id="header-extras">
         <div class="Navigation">
-          <ul>
-            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
-            <li class="NavbarListItem"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li>
-            <li class="NavbarListItem"><a href="extras.html">Extras</a></li>
-            <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
+          <ul class="grid-ul-header">
+            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="extras.html">Extras</a></li>
             <li class="NavbarListItem"><a href="index.html">Startseite</a></li>
+            <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li>
+            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
           </ul>
+          <div class="mobile-button">
+            <ul class="grid-ul-header-mobile">
+              <li class="NavbarListItem-mobile"><a href="index.html">Startseite</a></li>
+              <li class="NavbarListItem-mobile"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            </ul>
+            <div class="container-lines">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <h1> Download der Anmeldeformulare </h1>
-
-
       <div class="FormDiv-Anmeldeformulare">
-
-        <div class="text">
-          <h3> Informationen zur Anmeldung </h3>
-          <h4><br><br>
-          Sehr geehrte Eltern,<br><br>
-          bitte drucken Sie über den Button Anmeldeformulare alle notwendigen Unterlagen für die Anmeldung Ihres Kindes an unserer Schule aus.<br><br>
-          Nutzen Sie bitte als Leitfaden die Checkliste und beachten Sie neben den Möglichkeiten der Übermittlung der Unterlagen an unsere Schule auch das Abgabedatum 6. März 2021.
-          <br><br>Gerne können Sie uns auch über Ihre Mitgliedschaft im Schulförderverein anderwärtig unterstützen.</h4>
-        </div>
-
-
-
+          <h3 class="Headline-Anmeldeformular"> Informationen zur Anmeldung </h3>
+          <div class="Anmeldeformulate-Text">
+            <br>
+            Sehr geehrte Eltern,<br>
+            <br>
+            bitte drucken Sie über den Button Anmeldeformulare alle notwendigen Unterlagen für die Anmeldung Ihres Kindes an unserer Schule aus.<br>
+            <br>
+            Nutzen Sie bitte als Leitfaden die Checkliste und beachten Sie neben den Möglichkeiten der Übermittlung der Unterlagen an unsere Schule auch das Abgabedatum 6. März 2021.<br>
+            <br>
+            Gerne können Sie uns auch über Ihre Mitgliedschaft im Schulförderverein anderwärtig unterstützen.
+            <br>
+            <br>
+          </div>
       </div>
 
       <div class="Div-Formulare">
-		<a class ="Formulare" href="./data/anmeldung/anmeldung.zip">
-		<img  src="./Bilder/Banner_Anmeldung.PNG">
-		</a>
-
-	  <a class ="Formulare" href="./data/anmeldung/Förderverein.zip">
-	  <img src="./Bilder/Banner_Mitglied.PNG">
-	  </a>
-
-
-
-	  </div>
+        <div class="Div-Formulare-Child">
+        <a class ="Formulare" href="./data/anmeldung/anmeldung.zip">
+        <img  src="./Bilder/Banner_Anmeldung.png">
+        </a>
+        </div>
+        <div class="Div-Formulare-Child">
+        <a class ="Formulare" href="./data/anmeldung/Förderverein.zip">
+        <img src="./Bilder/Banner_Mitglied.png">
+        </a>
+        </div>
+	    </div>
     </section>
 
-
-
-
-      </div>
-
-    </section>
+    <script src="scripts/mobileResponsive.js"></script>
   </body>
 </html>

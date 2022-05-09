@@ -1,28 +1,42 @@
 
-
 :root
 {
   font-size: 16px !important;
 }
-
+/*
+.Navigation{
+  background-color: #dedede;
+  width: 100vw;
+  height: 11vh;
+  border-bottom: black 1px solid;
+} */
 
 .NavbarListItem{
-  float: left !important;
-  box-shadow: unset !important;
-  margin-bottom: 1.5vh !important;
-  background-color: white !important;
+  /* float: left; */
+  box-shadow: unset;
+  /* margin-bottom: 1.5vh; */
+  /* background-color: white; */
 }
 
 .NavbarListItem a{
-  font-size: 1.2rem !important;
-  background-color: unset !important;
-  opacity: 1 !important;
-  color: #000 !important;
+  font-size: 1.2rem;
+  background-color: unset;
+  opacity: 1;
+  /* color: #000; */
+
+}
+
+.Headline-Schulrundgang{
+  display: grid;
+  place-items: center;
+  width: 100%;
 }
 
 h1
 {
-  font-size: 2.0rem !important;
+  padding: 0;
+  float: left;
+  font-size: 2.0rem;
   font-family: Oranienbaum;
   font-style: normal;
   font-weight: normal;
@@ -50,18 +64,6 @@ h1
 }
 
 
-
-#background-section
-{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center, center;
-  background-image: url(../Bilder/Hintergrund_Startseite_Smartphone.JPG);
-  width: 100% !important;
-  height: 100% !important;
-}
-
 .schulrundflugAbstandMobile
 {
   height: 20vh !important;
@@ -70,22 +72,12 @@ h1
 
 .FormDiv-Anmeldeformulare
 {
-  width: 90% !important;
-  margin-left: 5% !important;
-  margin-right: 5% !important;
-  height: 45% !important;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-
-.Formulare
-{
-  width: 30% !important;
-  margin-right: 15% !important;
-  float: inline-end !important;
-}
-
-
-.Fachübersicht 
+.Fachübersicht
 {
 	padding-top: 5% !important;
 	position: relative !important;
@@ -104,7 +96,7 @@ h1
 	width: 90% !important;
 	display: block !important;
 	padding-bottom: 5% !important;
-	
+
 	/*opacity: 0.8;*/
 
 
@@ -117,11 +109,11 @@ h1
   width: 95% !important;
   margin-left: 2.5% !important;
   margin-right: 0% !important;
-  padding-left:0% !important; 
+  padding-left:0% !important;
   margin-bottom: 5% !important;
 }
 
-.FormDiv 
+.FormDiv
 {
   width: 100% !important;
   margin-left: 0% !important;
@@ -165,7 +157,44 @@ h1
   float: right !important;
 }
 
-.links{
-  background-color: rgba(0, 0, 0, 0.7) !important;
-  height: 100% !important;
+
+.FormDiv-Anmeldeformulare{
+  width: 90%;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  grid-template-rows: minmax(1vh, 5vh) minmax(20px, 65%);
+}
+
+.Headline-Anmeldeformular
+{
+  padding: 0.25%;
+  text-align: center;
+  font-size: 3.1vh;
+}
+
+.Anmeldeformulate-Text{
+  padding: 1%;
+  font-size: 2.25vh;
+  text-align: start;
+}
+
+.Main-Headline-Anmeldeformulare h1{
+  margin-top: 0%;
+  padding: 0;
+  font-size: 2.5rem;
+  display: grid;
+  place-items: center;
+  width: 100%
+}
+
+.Formulare img {
+  max-width: 70%;
+}
+
+
+.FAQ{
+	text-align: left;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh 1fr 7vh;
 }

@@ -1,0 +1,41 @@
+/* .Main-Headline-Anmeldeformulare h1 {
+    margin-top: 6.5vh;
+    padding: 0;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+
+.FormDiv-Anmeldeformulare {
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+    margin-top: 3%;
+    padding: 1%;
+    display: grid;
+    grid-template-rows: minmax(5vh, 10vh) minmax(70%, 75%);
+}
+
+.Div-Formulare {
+
+    place-content: center;
+    padding-top: 0;
+    margin-top: 0;
+    display: grid;
+    width: 40%;
+    height: 55%;
+    grid-template-columns: unset;
+    grid-template-rows: minmax(25%, 45%) minmax(25%, 45%);
+}
+
+.Formulare img {
+    max-width: 35vh;
+} */
+
+/* .Navigation {
+    background-color: unset;
+    width: 100vw;
+    border-bottom: unset;
+} */

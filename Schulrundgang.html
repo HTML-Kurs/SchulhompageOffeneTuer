@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="de" dir="ltr">
+<html lang="de" dir="ltr" style="overflow-x: hidden;">
 
   <head>
 
@@ -8,15 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> St. Josef Gymnasium Dingelstädt </title>
 	  <link rel="stylesheet" href="./css/main.css">
-    
-    <link
-		rel="stylesheet"
-		media="(max-width: 800px)"
-		href="./css/ipad.css">
 
-	  <link rel="stylesheet" media="(max-width: 600px)"href="./css/mobile.css">
+    <link rel="stylesheet" media="(max-width: 1030px)" href="./css/ipad.css">
 
-	  <script src="./scripts/getdata.js"> </script>	
+	  <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	  <script src="./scripts/getdata.js"> </script>
 
   </head>
 
@@ -24,24 +23,38 @@
 
   <body>
     <section class="Scrollbody">
-      <div class="header">
+      <div class="header" id="header-extras">
         <div class="Navigation">
-          <ul>
-            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li> 
-            <li class="NavbarListItem"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li> 
-            <li class="NavbarListItem"><a href="extras.html">Extras</a></li>
+          <ul class="grid-ul-header">
+            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="extras.html">Extras</a></li>
+            <li class="NavbarListItem"><a href="index.html">Startseite</a></li>
             <li class="NavbarListItem"><a href="Schulrundgang.html">Schulrundgang</a></li>
-            <li class="NavbarListItem"><a href="index.html">Startseite</a></li> 
+            <li class="NavbarListItem" id="float-right-mobileCSS"><a href="Anmeldeformulare.html">Anmeldeformulare</a></li>
+            <li class="NavbarListItem"><a href="schulrundflug.html">Schulrundflug</a></li>
           </ul>
+          <div class="mobile-button">
+            <ul class="grid-ul-header-mobile">
+              <li class="NavbarListItem-mobile"><a href="index.html">Startseite</a></li>
+              <li class="NavbarListItem-mobile"><a href="Schulrundgang.html">Schulrundgang</a></li>
+            </ul>
+            <div class="container-lines">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <h1> Virtueller Schulrundgang</h1>
-	  
-		
+      <div class="Headline-Schulrundgang">
+        <h1> Virtueller Schulrundgang</h1>
+      </div>
+
 		<div class="Fachübersicht">
 			<script src="./scripts/loadAuswahl.js"> </script>
+      <script src="scripts/mobileResponsive.js"></script>
     </div>
+
     </section>
   </body>
 </html>

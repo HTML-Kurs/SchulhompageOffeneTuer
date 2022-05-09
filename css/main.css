@@ -1,3 +1,10 @@
+:root {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+
+
+}
+
 
 *
 {
@@ -14,17 +21,11 @@ html,body{
 
 h1
 {
-	padding-top: 8%;
-	padding-right: 7%;
-	padding-left: 7%;
-	font-family: Oranienbaum;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 50px;
-	line-height: 58px;
 	text-align: center;
 	color: #E0E0E0;
-	text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -34,10 +35,12 @@ h1
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center center;
+	background-position: right top;
 	background-image: url(../Bilder/Hintergrund_Startseite_Desktop.jpg);
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
+
+
 }
 
 ul
@@ -68,22 +71,21 @@ li
 
 
 
-.NavbarListItem 
+.NavbarListItem
 {
 	transition: 300ms ease;
-	float: right;
-	margin-right: 5%;
+	font-size: 1.5rem;
 	padding: 0.5%;
-	background-color: #C4C4C4;
-
 	opacity: 0.7;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 	z-index: 200;
+	text-transform: uppercase;
 }
 
 .NavbarListItem a
 {
 	color: #444444;
+	font-size: 1.5rem;
 }
 
 
@@ -92,14 +94,19 @@ li
 	opacity: 1;
 }
 
+.grid-ul-header{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
+}
 
-#Trailer_Startseite
+/* #Trailer_Startseite
 {
 	align-content: center;
 	width: 46%;
 	padding-left: 27%;
 	margin-top: 3%;
-}
+} */
 
 #Trailer_Startseite:fullscreen{
 	width: 100%;
@@ -122,7 +129,7 @@ li
 	align-content: center;
 	width: 90%;
 	padding-left: 5%;
-	margin-top: 3%;
+	margin-top: 6%;
 }
 
 #Trailer_Schulrundflug:fullscreen
@@ -137,22 +144,26 @@ li
 
 
 
-a
-{
-	color:black;
-	font-size:17px;
+a{
+	color:#f5f5f7;
+	font-size:2rem;
 	opacity: 1;
 	text-decoration: none;
+
 }
 
 
 .FormDiv
 {
-	background-color: rgba(255, 255, 255, 0.5);
-	width: 80%;
-	margin-left: 10%;
 	height: 100%;
-	overflow-y: scroll;
+	grid-area: b;
+	width: 100%;
+}
+
+
+.FormDib h2{
+	color: #e1e1e3;
+	margin-bottom: 2.5%;
 }
 
 #Startseite
@@ -168,8 +179,39 @@ a
 
 .OffsetDiv
 {
- padding-top: 3.5%;
- height: 90vh;
+	padding-top: 13.5vh;
+	margin-top: 1.5vh;
+	height: 90vh;
+	display: grid;
+	grid-template-areas: "left b right";
+	grid-template-columns: 1fr 5fr 1fr;
+}
+
+#leftCngFach{
+	/* grid-area: a; */
+	width: 7vw;
+}
+
+#rightCngFach{
+	width: 7vw;
+}
+
+.LeftPfeilFormDiv{
+	grid-area: left;
+	display: grid;
+	place-content: center;
+	/* position: fixed; */
+	height: 100%;
+	/* width: 14%; */
+}
+
+.RechtsPfeilFormDiv{
+
+	display: grid;
+	place-content: center;
+	height: 100%;
+	/* position: fixed; */
+	grid-area: right;
 }
 
 .BannerNav
@@ -181,15 +223,11 @@ a
 	width: 200px;
 }
 
-.text {
-	padding: 1%;
-}
-
-nav a 
+nav a
 {
-  color: white;
-  margin: 0 1em;
-  text-decoration: none;
+	color: white;
+	margin: 0 1em;
+	text-decoration: none;
 }
 
 
@@ -201,21 +239,45 @@ nav a
 	height: 65%;
 	overflow: scroll;
 	margin-top: 3%;
-	
 }
 
 .BannerDiv
 {
-	overflow-x: hidden;	
+	overflow-x: hidden;
 }
 
+.extrasForm{
+	display: flex;
+	align-items: flex-start;
+}
 
+/* .searchForSomethink{
+	position: fixed;
+	margin-left: 1vw;
+	margin-top: 6vh;
+	color: #f5e7dc;
+	font-size: 2vh;
+} */
+
+/* #content:hover{
+	box-shadow: #444444 solid 4px 2px;
+	-webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+} */
+
+
+#Fließtext{
+	margin-bottom: 50%;
+	color: #ffffff;
+}
 
 /*#2E0000 #400000, oder black
 Farbabstimmung erfolgt demnächst*/
 
 .Scrollbody
 {
+	scroll-behavior: smooth;
 	position:relative;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -227,8 +289,11 @@ Farbabstimmung erfolgt demnächst*/
 	overflow-y: scroll;
 }
 
+.newContainer{
+	margin-top: 0%;
+}
 
-.Fachübersicht 
+.Fachübersicht
 {
 	padding-top: 5%;
 	position: relative;
@@ -247,7 +312,7 @@ Farbabstimmung erfolgt demnächst*/
 	width: 90%;
 	display: block;
 	padding-bottom: 5%;
-	
+
 	/*opacity: 0.8;*/
 
 
@@ -261,17 +326,11 @@ Farbabstimmung erfolgt demnächst*/
 
 h2
 {
-	padding-top: 3%;
-	padding-right: 7%;
-	padding-left: 7%;
-	font-family: Roboto;
 	font-size: 64px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 75px;
 	letter-spacing: 0em;
 	text-align: center;
-
 }
 
 
@@ -281,9 +340,9 @@ h2
 	padding-top: 2.5%;
 	padding-left: 3%;
 	padding-right: 1%;
-	font-family: Roboto;
 	font-size: 24px;
-	line-height: 30px;
+
+	color: #bebebe;
 }
 
 
@@ -299,6 +358,7 @@ h2
 
 .top-container{
 	float:left;
+
 }
 
 #Bilderübersicht
@@ -322,14 +382,14 @@ h2
 
 
 .Pfeil-links
-{ 
+{
  	float: left;
 	width: 7.5%;
 	padding-top:10%;
 	padding-left: 25%;
 }
 .Pfeil-rechts
-{ 
+{
     float: left;
 	width: 7.5%;
     padding-top: 10%;
@@ -338,46 +398,74 @@ h2
 
 
 
-.Bildergalerie-Div 
+.Bildergalerie-Div
 {
 	padding-top: 5%;
-	height: 45vh;
 	text-align: center;
 }
 
 
 .FormDiv-Anmeldeformulare
 {
-	background-color: rgba(255, 255, 255, 0.5);
-	width: 30%;
+	width: 40%;
 	margin-left: 10%;
-	height: 70%;
 	float:left;
 	margin-top: 3%;
-	overflow-y: scroll;
-}
-h3
-{
-	font-size: 30px;
+	padding: 1%;
+	display: grid;
+	grid-template-rows: minmax(5vh, 15vh) minmax(70%, 75%);
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
+
+h3
+{
+	font-size: 32px;
+}
+
+.Main-Headline-Anmeldeformulare h1{
+	font-size: 8vh;
+}
+
+.Headline-Anmeldeformular
+{
+	padding: 5%;
+	font-size: 5.25vh;
+	text-align: center;
+}
+
+.Anmeldeformulate-Text{
+	font-size: 2.5vh;
+	padding: 2.5%;
+	text-align: start;
+}
+
+.Div-Formulare{
+	place-content: center;
+	padding-top: 2.5%;
+	margin-top: 2.5%;
+	display: grid;
+	width: 40%;
+	max-height: 60%;
+	grid-template-rows: minmax(25%, 45%) minmax(25%, 45%);
+}
+
+.Div-Formulare-Child{
+	display: grid;
+  	place-items: center;
+}
 
 .Formulare
 {
-	width: 17%;
-	float:right;
-	margin-right: 20%;
-
+	display: grid;
+  	place-items: center;
+	width: 100%;
+	height: 100%;
 }
 .Formulare img
 {
-	width:100%;
+	max-width: 70%;
 }
-.Div-Formulare
-{
-	padding-top: 2%;
-}
-
 
 /*CSS Transitions*/
 
@@ -393,27 +481,899 @@ h3
 .links
 {
 	text-align: center;
-	color: #C4C4C4;
 }
 
 .links a
 {
-	font-size: 2rem;
-	color: #C4C4C4;
+	font-size: 1.5rem;
 	text-decoration: underline;
 	transition: all 300ms ease;
 	stroke: black;
 	stroke-width: 5px;
 }
 
-.links a:hover
-{
-	color: rgb(105, 105, 105);
+/* REWORK stand nach 22.12.2021*/
+
+/*
+
+Gliederung: globalevariablene,
+			Startseite,
+			Schulrundgang,
+			Anmeldeformulare,
+			Schulrundflug,
+			Extras,
+			Animationen
+*/
+
+/* Startseite*/
+
+.StartseiteBody{
+	height: unset;
+	background-color: #141414;
+	scroll-behavior: smooth;
+}
+
+.Navigation{
+	background-color: #141414;
+	position: fixed;
+	z-index: 1;
+
+	width: 100vw;
+	font-size: 1.5rem;
+	text-decoration: none;
+
+	transition: 300ms ease;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.NavbarListItem{
+	box-shadow: unset;
+	opacity: 0.7;
+	padding: 0.5%;
+	z-index: 200;
+}
+
+.videoStartseite{
+	display: grid;
+	place-content: center;
+	padding-top: 12vh;
+	margin-bottom: 6vh;
+}
+
+#Trailer_Startseite{
+	border-radius: 1%;
+}
+
+/* .background-section{
+	/* background-color: black; */
+
+/*
+} */
+.videoStartseite video{
+	width: 86vw;
+}
+.banner-Startseite{
+	display: grid;
+	place-content: center;
+	color: #141414;
+
+}
+
+.container-Startseite{
+	display: flex;
+	flex-wrap:  wrap ;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 86vw;
+	margin-bottom: 6vh;
+	color: #141414;
+}
+
+.Anmeldeformulare-Startseite{
+	height: 35vh;
+	width: 28vw;
+	background-color: #ffc353;
+	display: grid;
+	place-content: center;
+	font-size: 2rem;
+	font-family: 'Lato', sans-serif;
+	border-radius: 3%;
+	color: #141414;
+	box-shadow: black;
+	text-shadow: #141414;
+}
+
+.Anmeldeformulare-Startseite:hover{
+	transform: scale(1.02);
+	background-color: #ffc353;
+	transition: all 500ms ease-in-out;
+	color: #141414;
+}
+
+.Anmeldeformulare-Startseite:hover a{
+	font-size: 2.3rem;
+	transition: all 500ms ease-in-out;
+	box-shadow: black;
+	color: #141414;
+}
+
+.Schulrundflug-Startseite{
+	height: 35vh;
+	width: 28vw;
+	background-color: #ff4e9e;
+
+	display: grid;
+	place-content: center;
+	font-size: 2rem;
+	font-family: 'Lato', sans-serif;
+	border-radius: 3%;
+	color: #141414;
+	box-shadow: black;
+}
+
+.Schulrundflug-Startseite:hover{
+	transform: scale(1.02);
+	background-color: #ff4e9e;
+	transition: all 500ms ease-in-out;
+	box-shadow: black;
+	color: #141414;
+}
+
+.Schulrundflug-Startseite:hover a{
+	font-size: 2.3rem;
+	transition: all 500ms ease-in-out;
+	color: #141414;
+}
+
+.footer{
+	width: 100%;
+	background: #141414;
+	color: rgba(224, 224, 224, 0.95);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-top: 3vh solid #141414;
+	text-transform: uppercase;
+}
+
+.Formulare-footer{
+	font-size: 1.25rem !important;
+	margin-bottom: 3vh;
+
+}
+
+.Formulare-box-grid{
+	display: grid;
+	grid-column: 1/2;
+
+	color: #f5f5f7;
+	place-content: start;
+	justify-self: start;
+	margin-left: 7vw;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+.Impressum{
+	margin-bottom: 3vh;
+}
+
+
+.container_footer{
+	grid-column: 2/2;
+	font-size: 1.25rem;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	border-left: #f5f5f7 solid 1px;
+	padding-left: 7vw;
+}
+
+.textDecoration{
+	text-decoration: underline 1px rgba(245, 245, 247, 0.55) solid;
+	color: rgba(224, 224, 224, 0.7);
+	font-size: inherit;
+}
+
+.Headline-Schulrundgang h1{
+	margin-top: 10vh;
+}
+
+.Startseite-Links-Banner{
+	color:rgba(0, 0, 0, 0.829);
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	line-height: initial;
+}
+
+
+/* Schulrundgang*/
+
+.Schulrundgang-Startseite{
+	height: 35vh;
+	width: 28vw;
+	background-color: #ff876b;
+	display: grid;
+	place-content: center;
+	font-size: 2rem;
+	font-family: 'Lato', sans-serif;
+	border-radius: 3%;
+	color: #141414;
+	box-shadow: black;
+}
+
+.Schulrundgang-Startseite:hover{
+	transform: scale(1.02);
+	background-color: #ff876b;
+	transition: all 500ms ease-in-out;
+	box-shadow: black;
+	color: #141414;
+}
+
+.Schulrundgang-Startseite:hover a{
+	font-size: 2.3rem;
+	transition: all 500ms ease-in-out;
+	color: #141414;
+}
+
+.grid-container {
+	background-color: #140c0cde;
+}
+
+.innerbackgroundColor-blue{
+	background-color:#160866bb;
+}
+
+.innerbackgroundColor-red{
+	background-color:#6e0000de;
+}
+
+.innerbackgroundColor-green{
+	background-color:#1f2b03e0;
+}
+
+.FormDiv {
+	background-color: white;
+}
+.FormDiv h2 {
+	color: #e3e3e1;
+}
+#Fachvorstellung_Video {
+	width: 46%;
+	padding-right: 1%;
+	width: 94%;
+	padding-left: 3%;
+}
+.grid-text {
+	padding-top: 2.5%;
+}
+.top-container {
+	display: flex;
+	flex-direction: column;
+	gap: 5%;
+}
+
+.headlineSchulrundgang{
+	padding-top: 2vh;
+	display: block;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+/* Anmeldeformulare*/
+
+
+
+/* Schulrundflug*/
+
+.grid-container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.OffsetDiv{
+	height: 100%;
+	width: 100%;
+}
+
+.backgroundColor-blue{
+	background-color: #0d005b !important;
+}
+
+.backgroundColor-red{
+	background-color: #6e0000 !important;
+}
+
+.backgroundColor-green{
+	background-color: #1f2b03 !important;
+}
+/* Extras*/
+
+.newContainer{
+	display: grid;
+	grid-template-areas:
+	"header"
+	"links"
+	"FragenNavigation"
+	"Antworten"
+	;
+	scroll-behavior: smooth;
+}
+
+#header-extras{
+	grid-area: header;
 }
 
 .links{
-	background-color: rgba(0, 0, 0, 0.4);
-	height: 100vh;
-	margin-top: 0%;
-	margin-top: -5px;
+	grid-area: links;
+	display: grid;
+	gap: 1vh;
+	margin-top: 10vh;
+	color: black;
+	text-align: left;
+	place-content: left;
+}
+.links div{
+	margin-left: 10%;
+	width: 80%;
+}
+/*oder auch nicht*/
+.links h2{
+	font-size: 4rem;
+	text-align: left;
+	margin-left: 10%;
+	color: rgba(20, 20, 20, 0.85);
+
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+.links h2::after {
+	text-decoration: underline solid rgba(20,20,20,0);
+}
+
+.links h2:hover{
+	font-size: 4rem;
+	text-align: left;
+	margin-left: 10%;
+	color: rgba(20, 20, 20, 1);
+	/*transition: text-decoration-color 500ms ease-in-out; */
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.35);
+	animation: linksUnderlineAnimation 500ms ease-in-out 0ms 1;
+	text-decoration: underline solid rgba(20, 20, 20, 1);
+}
+
+.links a{
+	color: #141414;
+}
+
+
+
+.FAQ-container{
+	grid-area: Antworten;
+}
+/*github ist ein Verräter*/
+.FAQ-container h2{
+	font-size: 6rem;
+	color: #fff;
+	padding-bottom: 4.5vh;
+	padding-top: 4.5vh;
+	background-color: #2962ff;
+	text-transform: uppercase;
+
+}
+
+.FAQ{
+	text-align: left;
+	/* display: grid;  */
+	/* grid-template-columns: 1fr; */
+	/* grid-template-rows: 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh 2fr 7vh;  */
+}
+
+.FAQ0{
+	/* display: grid;  */
+	margin-left: 10vw;
+	margin-right: 10vw;
+	padding-top: 11vh;
+	/* grid-template-rows: minmax(30vh, max-content); */
+
+}
+
+.FAQ0 div{
+	font-size: 2rem;
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 12vh;
+	line-height: 1.75;
+}
+
+.FAQ0 h3{
+	font-size: 3rem;
+	text-align: center;
+	padding-bottom: 12vh;
+	line-height: 1;
+}
+
+.fragen{
+	grid-area: FragenNavigation;
+	margin-top: 2vh;
+	display: grid;
+	place-content: center;
+	padding-bottom: 12vh;
+}
+
+.fragen-ol{
+	margin-top: 2vh;
+	place-content: center;
+}
+
+.fragen ol{
+	list-style-type: decimal;
+	display: grid;
+	gap: 0.55vh;
+	width: 75vw;
+}
+.fragen ol li{
+	list-style-type: decimal;
+	font-size: 1.5rem;
+	color: #f5f5f7;
+}
+
+
+/* NOT SUPPORTED currently in HTMl5 and CSS3*/
+/* .listItemFragen::marker{
+	text-decoration: underline rgba(255, 255, 255, 1);
+	text-decoration-thickness: 1px;
+}
+
+.listItemFragen::marker::before{
+	text-decoration: underline rgba(255, 111, 255, 1);
+	text-decoration-thickness: 1px;
+
+}
+
+.listItemFragen::marker::after{
+	text-decoration: overline rgba(255, 111, 255, 1);
+	text-decoration-thickness: 1px;
+}
+
+.listItemFragen::marker:hover{
+	text-decoration: underline rgba(255, 255, 255, 1);
+	transition: text-decoration-color 300ms ease-in-out ;
+	text-decoration-thickness: 3px;
+	transition: text-decoration-thickness 500ms ease-in-out ;
+} */
+
+.navigationExtrasAnker{
+	font-size: 1.5rem;
+	color: #f5f5f7
+}
+
+.centerdiv h1{
+	font-size: 4rem;
+	padding-top: 5vh;
+	text-transform: uppercase;
+}
+
+.extras-Section{
+	scroll-behavior: smooth;
+	font-family: 'Lato', sans-serif;
+}
+
+.brownBackground-wie-Marlene-es-will{
+	background-color: #1b1b1b;
+	color: #f5f5f7;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 15vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+
+}
+
+.brownBackground-wie-Marlene-es-will-fill-div{
+	background-color: #1b1b1b;
+	color: #f5f5f7;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 10vw;
+	padding-right: 10vw;
+
+}
+
+.listItemFragen{
+	text-decoration: underline rgba(255, 255, 255, 0);
+	text-decoration-thickness: 1px;
+	transition: text-decoration-color 1000ms ease ;
+}
+
+.listItemFragen:hover{
+	text-decoration: underline rgba(255, 255, 255, 1);
+	transition: text-decoration-color 300ms ease-in-out ;
+	text-decoration-thickness: 3px;
+	transition: text-decoration-thickness 300ms ease-in-out ;
+}
+
+.links div a {
+	text-decoration: underline 1px solid rgba(0, 0, 0, 0.25);
+	color: #141414;
+}
+
+.links div a:hover {
+	text-decoration: underline 2px solid rgba(0, 0, 0, 1);
+	transition: text-decoration-color 500ms ease-in-out;
+	transition: text-shadow 1000ms linear;
+	color: #000;
+	text-shadow:
+    -0.25px -0.25px 0 #000,
+    0.25px -0.25px 0 #000,
+    -0.25px 0.25px 0 #000,
+    0.25px 0.25px 0 #000;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.fragen {
+	background: #1b1b1b;
+	margin-top: 7vh;
+}
+#header-extras {
+	background-color: #141414;
+}
+.NavbarListItem a {
+	color: #444444;
+	color: #f5f5f7;
+}
+
+.header, .links, .fragen, .FAQ-container, .FAQ{
+	width: 100%;
+}
+
+.textDecoration:hover{
+	transition: all 100ms ease;
+	text-decoration: underline 2px rgba(245, 245, 247, 0.55) solid;
+	color: rgba(224, 224, 224, 1);
+}
+
+/* Animationen */
+
+
+@keyframes linksUnderlineAnimation {
+	from {
+		text-decoration: underline solid rgba(20, 20, 20, 0.4);
+	}
+
+
+	50%{
+		text-decoration: underline solid rgba(20, 20, 20, 0.7);
+
+	}
+	to{
+		text-decoration: underline solid rgba(20, 20, 20, 1);
+	}
+}
+
+
+@keyframes navListFade {
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+
+
+/* @keyframes buttonAnimationStartseite {
+	from {
+		background-color: #141414;
+		border-bottom: #000 solid 0;
+		border-top: #000 solid 0;
+		transform: scale(1.1);
+	}
+
+	to{
+		background-color: rgba(124, 0, 0, 0.767);
+		transform: scale(1.1);
+	}
+} */
+
+
+/* Responsive */
+
+.mobile-button{
+	display: none;
+}
+
+.mobile-button div div{
+	width: 5vw;
+	height: 4px;
+	margin: 10%;
+	background-color: #f5f5f7;
+}
+.mobile-button div{
+	margin-top: 1vh;
+}
+
+.background-responsive-cng{
+	background-image: none !important;
+}
+
+@media screen and (max-width: 1030px) {
+
+	body{
+		overflow-X: hidden;
+	}
+
+	.Anmeldeformulare-Startseite, .Schulrundgang-Startseite, .Schulrundflug-Startseite{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 5vh;
+	}
+
+	.FormDiv-Anmeldeformulare{
+		margin-top: 10vh;
+	}
+
+	.newContainer {
+	  font-size: 30px;
+	}
+
+
+	.fragen-ol{
+		width: 75vw;
+	}
+
+	.FAQ div h3{
+		font-size: 3rem;
+	}
+	.FAQ div div{
+		font-size: 2rem;
+	}
+
+	/* NAVBAR: mobile*/
+
+	.header{
+		height: max-content
+	}
+
+	.grid-ul-header{
+		position: fixed;
+		right: 0px;
+		top: 0vh;
+		left: unset;
+		padding-top: 8vh;
+
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		align-items: center;
+
+		width: 72.5vw;
+		height: 100vh;
+
+		z-index: 1000;
+
+		background-color: rgb(31, 31, 13);
+
+		transform: translateX(100%);
+		transition: transform 500ms ease-in;
+
+
+		padding: 0 !important;
+	}
+
+	.grid-ul-header li{
+		opacity: 0;
+	}
+
+
+	.mobile-button{
+		position: fixed;
+		z-index: 1000;
+
+		display: flex;
+
+		right: 0px;
+		left: unset;
+
+		width: 100vw;
+		height: max-content;
+		background-color: #141414;
+	}
+
+	.grid-ul-header-mobile{
+		display: flex;
+		color: white;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		left: 0;
+		padding: 0 !important;
+		width: 80vw;
+		justify-content: space-around;
+	}
+
+	.container-lines{
+		position: fixed;
+		right: 0px;
+		left: unset;
+
+		width: 20vw;
+		height: max-content;
+
+		display: grid;
+		justify-content: center;
+		align-content: start
+	}
+
+	.container-lines {
+		top: 0px;
+		margin-top: 0px;
+	}
+
+
+	.NavbarListItem-mobile{
+		padding: 2.5%;
+	}
+
+	.NavbarListItem-mobile a{
+		color: white;
+		font-size: 1.5rem;
+		padding: 0.5%;
+		margin: 2vh;
+		word-break: normal;
+	}
+  }
+
+
+@media screen and (max-width: 768px) {
+
+	.header, .links, .fragen, .FAQ-container, .FAQ{
+		width: 100vw;
+	}
+
+	.Anmeldeformulare-Startseite, .Schulrundgang-Startseite, .Schulrundflug-Startseite{
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		height: 20vh;
+		margin-bottom: 5vh;
+	}
+
+	body{
+		overflow-X: hidden;
+	}
+
+	.newContainer {
+	  font-size: 30px;
+	}
+
+
+	.fragen-ol{
+		width: 75vw;
+	}
+
+	.FAQ div h3{
+		font-size: 3rem;
+		display: inline-block;
+		overflow-wrap: break-word;
+		width: 100%;
+		hyphens: manual;
+	}
+	.FAQ div div{
+		font-size: 1.5rem;
+		hyphens: manual;
+		text-align: justify;
+	}
+	.FAQ-container h2{
+		font-size: 4rem;
+	}
+
+	.footer{
+		width: 100vw;
+		display: unset;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Formulare-box-grid{
+		padding-bottom: 0vh;
+	}
+
+	.container_footer{
+		padding-top: 0vh;
+	}
+
+	.mobile-button div div {
+		height: 3px;
+	}
+	.mobile-button div{
+		margin-top: 1.5vh;
+	}
+
+	.grid-text{
+		margin-bottom: 3vh;
+	}
+
+	.Bildergalerie-Div{
+		padding-top: 0%;
+		margin-top: 15%;
+	}
+
+
+ }
+
+ @media screen and (max-width: 400px) {
+	.NavbarListItem-mobile a{
+		font-size: 1.25rem;
+	}
+
+	.mobile-button div div{
+		margin: 3px;
+	}
+
+	.Anmeldeformulare-Startseite a, .Schulrundgang-Startseite a, .Schulrundflug-Startseite a{
+		font-size: 1.5rem;
+	}
+
+
+	.Schulrundgang-Startseite:hover a{
+		font-size: 2rem;
+		transition: all 500ms ease-in-out;
+	}
+	.Anmeldeformulare-Startseite:hover a{
+		font-size: 1.7rem;
+		transition: all 500ms ease-in-out;
+	}
+	.Schulrundflug-Startseite:hover a{
+		font-size: 2rem;
+		transition: all 500ms ease-in-out;
+	}
+
+	.mobile-button div div {
+		height: 2.5px;
+		width: 6vw;
+	}
+	.mobile-button div{
+		margin-top: 1.45vh;
+	}
+ }
+
+ @media screen and (max-height: 550px) {
+	.FormDiv-Anmeldeformulare{
+		margin-top: 20vh;
+	}
+ }
+
+.header-active {
+	transform: translateX(0%);
+
+}
+
+.toggle .line1{
+	transform: rotate(-45deg) translate(-1vh, 1.12vh);
+	transition: all 250ms ease-in-out;
+}
+
+.toggle .line2{
+	opacity: 0;
+	transition: all 150ms ease-in-out;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-1vh, -1.12vh);
+	transition: all 250ms ease-in-out;
 }
